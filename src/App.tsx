@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/header';
 
 function App() {
   
@@ -6,12 +7,14 @@ function App() {
 
   return (
     <>
+      <Header />
       <div>
         <p>Count: {count}</p>
         <button className="" onClick={() => setCount(count + 1)}>Increment</button>
       </div>
   
-      <p className='bg-red-500'>Hola mijin</p>
+      <p className="text-slate-500 hover:text-blue-600">Hola mijin</p>
+
     </>
   )
 }
