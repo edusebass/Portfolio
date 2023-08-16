@@ -1,20 +1,14 @@
-import { useState } from 'react'
+import {} from 'react'
 import Header from './components/header';
 
 function App() {
   
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <Header />
-      <div>
-        <p>Count: {count}</p>
-        <button className="" onClick={() => setCount(count + 1)}>Increment</button>
-      </div>
-  
-      <p className="text-slate-500 hover:text-blue-600">Hola mijin</p>
-
+      <body className="min-h-screen bg-gradient-to-r from-stone-950 to-neutral-600">
+        <Header />
+        
+      </body>
     </>
   )
 }
