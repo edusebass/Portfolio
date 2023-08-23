@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
     
 
 const Header = () => {
@@ -17,8 +17,8 @@ const Header = () => {
                     <span className="font-semibold tracking-tight pl-10 text-4xl">EA</span>
                 </div>
                 <div className="block sm:hidden">
-                    <button className="flex items-center px-3 py-2 border rounded border-black hover:text-white hover:border-white" onClick={toggleNav}>
-                        <svg className="fill-current h-3 w-3" ><AiOutlineMenu></AiOutlineMenu></svg>
+                    <button className="flex items-center px-6 py-4 border rounded border-black hover:text-white hover:border-white" onClick={toggleNav}>
+                        <svg className="fill-current h-3 w-3" > {isNavOpen ? <AiOutlineClose /> : <AiOutlineMenu />}</svg>
                     </button>
                 </div>
                 <div className={`w-full flex-grow justify-between sm:flex sm:items-center sm:w-auto ${isNavOpen ? "block" : "hidden"}`}>
