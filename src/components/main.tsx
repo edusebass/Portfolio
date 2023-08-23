@@ -7,7 +7,7 @@ const main = () => {
     
 
     return (
-        <div className='flex px-32 py-10 sm:px-52 sm:py-48'>
+        <div className='flex pl-1 py-10 sm:px-52 sm:py-48'>
 
             <div className='flex '>
                 <img src={imgPerfil} className='my-5 hidden sm:block sm:h-auto sm:max-h-48 rounded-full'/>
