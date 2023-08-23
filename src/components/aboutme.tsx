@@ -9,7 +9,7 @@ const AboutMe = () => {
     return (
         <>
         <div className="flex">
-            <div className="hidden text-white px-8 sm:block">
+            <div className="hidden text-white px-8">
                 <h2>Eduardo</h2>
                 <h3>Software Developer</h3>  
                 <ul>
@@ -19,26 +19,29 @@ const AboutMe = () => {
                     <li> - Contact me</li>
                 </ul>
             </div>  
-            <div className="text-white text-5xl block sm:inline">
-                <h2 className="text-yellow-400 font-bold text-center pb-8">Skills</h2>
-                <div className=" inline-block sm:inline-flex">
-                <BiLogoPython/>
-                <BiLogoCPlusPlus/>
-                <FaJava/>
-                <BiLogoHtml5/>
-                <BsGit/>
-                <BiTerminal/>
-                <BiLogoCss3/>
-                <BiLogoJavascript/> 
-                <SiJupyter/>
-                <SiMysql/>
-                <SiMicrosoftsqlserver/>
-                <SiApachecouchdb/>
-                <BiLogoNodejs/>
-                <BiLogoReact/>
-                <BiLogoJquery/>
+            <div className="flex justify-center">
+                <div className="text-white text-5xl">
+                    <h2 className="text-yellow-400 font-bold text-center pb-8">Skills</h2>
+                    <div className="flex p-5">
+                    <BiLogoPython/>
+                    <BiLogoCPlusPlus/>
+                    <FaJava/>
+                    <BiLogoHtml5/>
+                    <BsGit/>
+                    <BiTerminal/>
+                    <BiLogoCss3/>
+                    <BiLogoJavascript/> 
+                    <SiJupyter/>
+                    <SiMysql/>
+                    <SiMicrosoftsqlserver/>
+                    <SiApachecouchdb/>
+                    <BiLogoNodejs/>
+                    <BiLogoReact/>
+                    <BiLogoJquery/>
+                    </div>
                 </div>
             </div>
+            
         </div>
         </>
     );
