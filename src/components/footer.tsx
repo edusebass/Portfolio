@@ -122,41 +122,8 @@ const footer = () => {
                     </TERipple>
                 </div>
 
-                {/* <!-- Newsletter sign-up form --> */}
-                <div>
-                    <form action="">
-                        <div
-                            className="gird-cols-1 grid items-center justify-center gap-4 md:grid-cols-3">
-                            <div className="md:mb-6 md:ml-auto">
-                                <p className="">
-                                    <strong>Sign up for our newsletter</strong>
-                                </p>
-                            </div>
-
-                            {/* <!-- Newsletter sign-up input field --> */}
-                            <div className="relative md:mb-6">
-                              <TEInput
-                                theme={{
-                                  label:
-                                    "pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate text-white transition-all duration-200 ease-out peer-focus:scale-[0.8] peer-focus:text-primary motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary",
-                                }}
-                                id="exampleFormControlInput1"
-                                label="Email address"
-                              ></TEInput>
-                            </div>
-
-                            {/* <!-- Newsletter sign-up submit button --> */}
-                            <div className="mb-6 md:mr-auto">
-                                <button
-                                    type="submit"
-                                    className="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-                                >
-                                    Subscribe
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                
+            
 
                 {/* <!-- Copyright information --> */}
                 <div className="mb-6">
