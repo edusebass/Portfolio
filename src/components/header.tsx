@@ -29,8 +29,11 @@ const Header = () => {
                         <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold mr-4 uppercase sm:normal-case">
                             Skills
                         </a>
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold  uppercase sm:normal-case">
+                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold mr-4 uppercase sm:normal-case">
                             Projects
+                        </a>
+                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold  uppercase sm:normal-case">
+                            About me
                         </a>
                     </div>
                 
