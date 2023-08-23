@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+
 import {BiLogoPython, BiLogoCPlusPlus, BiLogoHtml5, BiTerminal, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, BiLogoReact, BiLogoJquery} from "react-icons/bi";
 import {FaJava} from "react-icons/fa";
 import {BsGit} from "react-icons/bs";
@@ -9,7 +9,7 @@ const AboutMe = () => {
     return (
         <>
         <div className="flex">
-            <div className="text-white px-8 bg-fixed " id="seccionestatica">
+            <div className="hidden text-white px-8 sm:block">
                 <h2>Eduardo</h2>
                 <h3>Software Developer</h3>  
                 <ul>
@@ -19,9 +19,9 @@ const AboutMe = () => {
                     <li> - Contact me</li>
                 </ul>
             </div>  
-            <div className="text-white text-5xl" id="seccionquesibaja">
-                <h2>Skills</h2>
-                <div className="flex">
+            <div className="text-white text-5xl block sm:inline">
+                <h2 className="text-yellow-400 font-bold text-center pb-8">Skills</h2>
+                <div className=" inline-block sm:inline-flex">
                 <BiLogoPython/>
                 <BiLogoCPlusPlus/>
                 <FaJava/>
@@ -37,52 +37,7 @@ const AboutMe = () => {
                 <BiLogoNodejs/>
                 <BiLogoReact/>
                 <BiLogoJquery/>
-                
                 </div>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
-                <p>hola</p>
             </div>
         </div>
         </>
