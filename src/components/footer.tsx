@@ -150,7 +150,6 @@ const footer = () => {
                                 <button
                                     type="submit"
                                     className="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-
                                 >
                                     Subscribe
                                 </button>
@@ -162,99 +161,15 @@ const footer = () => {
                 {/* <!-- Copyright information --> */}
                 <div className="mb-6">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                        distinctio earum repellat quaerat voluptatibus placeat nam,
-                        commodi optio pariatur est quia magnam eum harum corrupti dicta,
-                        aliquam sequi voluptate quas.
+                    If you liked what you saw, don’t hesitate to contact me.
+                        What are you waiting for? Let’s work together!!
                     </p>
-                </div>
-
-                {/* <!-- Links section --> */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-4">
-                    <div className="mb-6">
-                        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
-
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a className="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="mb-6">
-                        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
-
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a className="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="mb-6">
-                        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
-
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a className="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div className="mb-6">
-                        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
-
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a className="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
 
             {/* <!-- Copyright section --> */}
-            <div
-                className="p-4 text-center bg-black bg-opacity-20">
-                © 2023 Copyright:
-                <a className="text-white" href="https://tailwind-elements.com/"
-                >Tailwind Elements</a>
+            <div className="p-4 text-center bg-black bg-opacity-20">
+                © 2023 Copyright: Created with 💓 by Eduardo Almachi
             </div>
         </footer>
     );
