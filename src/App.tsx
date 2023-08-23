@@ -1,15 +1,17 @@
 import {} from 'react'
 import Header from './components/header';
-import Main from './components/main';
+import Intro from './components/intro';
 import Footer from './components/footer';
+import AboutMe from './components/aboutme';
 
 function App() {
   
   return (
     <>
-      <body className="font-mono min-h-screen bg-gradient-to-r from-white to-neutral-300">
+      <body className="font-mono min-h-screen bg-gradient-to-r from-black to-blue-950">
         <Header />
-        <Main />
+        <Intro/>
+        <AboutMe/>
         <Footer/>
       </body>
     </>
