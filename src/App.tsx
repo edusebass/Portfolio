@@ -3,6 +3,8 @@ import Header from './components/header';
 import Intro from './components/intro';
 import Footer from './components/footer';
 import AboutMe from './components/aboutme';
+import Project from './components/projects';
+
 
 function App() {
   
@@ -12,7 +14,9 @@ function App() {
         <Header />
         <Intro/>
         <AboutMe/>
+        <Project/>
         <Footer/>
+        
       </body>
     </>
   )
