@@ -8,40 +8,27 @@ const AboutMe = () => {
     
     return (
         <>
-        <div className="flex">
-            <div className="hidden text-white px-8">
-                <h2>Eduardo</h2>
-                <h3>Software Developer</h3>  
-                <ul>
-                    <li> - Skills</li>
-                    <li> - Projects</li>
-                    <li> - About me</li>
-                    <li> - Contact me</li>
-                </ul>
-            </div>  
-            <div className="flex justify-center">
-                <div className="text-white text-5xl">
-                    <h2 className="text-yellow-400 font-bold text-center pb-8">Skills</h2>
-                    <div className="flex p-5">
-                    <BiLogoPython/>
-                    <BiLogoCPlusPlus/>
-                    <FaJava/>
-                    <BiLogoHtml5/>
-                    <BsGit/>
-                    <BiTerminal/>
-                    <BiLogoCss3/>
-                    <BiLogoJavascript/> 
-                    <SiJupyter/>
-                    <SiMysql/>
-                    <SiMicrosoftsqlserver/>
-                    <SiApachecouchdb/>
-                    <BiLogoNodejs/>
-                    <BiLogoReact/>
-                    <BiLogoJquery/>
-                    </div>
+        <div className="flex justify-center p-3"> 
+            <div className="text-white text-5xl">
+                <h2 className="text-yellow-400 font-bold text-center pb-8">Skills</h2>
+                <div className="flex flex-wrap grow justify-center p-10 border-solid border-4 rounded-lg border-yellow-500">
+                <BiLogoPython/>
+                <BiLogoCPlusPlus/>
+                <FaJava/>
+                <BiLogoHtml5/>
+                <BsGit/>
+                <BiTerminal/>
+                <BiLogoCss3/>
+                <BiLogoJavascript/> 
+                <SiJupyter/>
+                <SiMysql/>
+                <SiMicrosoftsqlserver/>
+                <SiApachecouchdb/>
+                <BiLogoNodejs/>
+                <BiLogoReact/>
+                <BiLogoJquery/>
                 </div>
-            </div>
-            
+            </div>            
         </div>
         </>
     );
