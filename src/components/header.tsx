@@ -23,7 +23,7 @@ const Header = () => {
                 </div>
                 <div className={`w-full flex-grow justify-between sm:flex sm:items-center sm:w-auto ${isNavOpen ? "block" : "hidden"}`}>
                     <div className="text-sm sm:flex-grow">
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold mx-14 uppercase sm:normal-case" >
+                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold mr-14 uppercase sm:normal-case" >
                             Home
                         </a>
                         <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold mr-14 uppercase sm:normal-case">
@@ -32,8 +32,11 @@ const Header = () => {
                         <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold mr-14 uppercase sm:normal-case">
                             Projects
                         </a>
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold  uppercase sm:normal-case">
+                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold  mr-14 uppercase sm:normal-case">
                             About me
+                        </a>
+                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold  mr-14 uppercase sm:normal-case">
+                            Contact
                         </a>
                     </div>
                 
