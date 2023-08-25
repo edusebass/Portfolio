@@ -1,6 +1,7 @@
 
 import Button from './button';
 import imgPerfil from '../../public/img/fotocarnet.jpg';
+import CV from '../../public/docs/EduardoAlmachiCV.pdf';
 
 const intro = () => {
 
@@ -14,7 +15,7 @@ const intro = () => {
                     <h2 className='font-bold text-lg'>Hi, I´m Eduardo Almachi 👋</h2>
                     <h2 className='text-5xl font-extrabold text-yellow-400 sm:text-7xl'>Software Developer</h2>
                     <p className='py-2 text-slate-400 pb-4'>Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital word.</p>
-                    <Button href="">Download CV</Button>
+                    <Button href={CV}>Download CV</Button>
                 </div>
             </div>
         </div>
