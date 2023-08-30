@@ -1,6 +1,9 @@
 import imgSimon from '../../public/img/simon.png';
 import imgDicee from '../../public/img/dicee.png';
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery } from 'react-icons/bi';
+import projectc from '../../public/img/projectc++.png';
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoGithub, BiLogoCPlusPlus } from 'react-icons/bi';
+import { MdOutlinePageview } from 'react-icons/md';
+
 
 import Button from './button';
 
@@ -11,7 +14,7 @@ const Project = () => {
                 <h2 className="flex text-5xl font-bold text-yellow-500 justify-center pb-10">Projects</h2>
                 <div className='p-2 sm:p-10 flex flex-col sm:justify-between sm:flex sm:flex-row '>
 
-                    <div className=' flex flex-col p-5 justify-center items-center border-2 border-yellow-400 rounded-xl'>
+                    <div className=' flex flex-col p-5 justify-center items-center '>
                         <p className="inline text-white font-bold pb-2">SIMON DICEE WEBSITE</p>
                         <img src={imgSimon} className='w-60 h-auto p- rounded-xl'/>
                         <p className='text-white items-start p-7'>Video game about interactive memorization</p>
@@ -34,12 +37,13 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='pt-3'>
-                            <Button href='https://edusebass.github.io/SIMONDICEE-WEBSITE/'>Visit Website</Button>
+                            <Button icon={<MdOutlinePageview/>} href='https://edusebass.github.io/SIMONDICEE-WEBSITE/'>Visit Website</Button>
+                            <Button icon={<BiLogoGithub/>} href='https://github.com/edusebass/SIMONDICEE-WEBSITE'>Visit Repo</Button>
                         </div>
                     </div>
 
-                    <div className=' flex flex-col p-5 justify-center items-center border-2 border-yellow-400 rounded-xl '>
-                        <p className="inline text-white font-bold pb-2">SIMON DICEE WEBSITE</p>
+                    <div className=' flex flex-col p-5 justify-center items-center '>
+                        <p className="inline text-white font-bold pb-2">Game WEBSITE</p>
                         <img src={imgDicee} className='w-60 h-auto p-2 rounded-xl'/>
                         <p className='text-white items-start p-7'>Game website that allows users to participate in an online dice game. The goal of the game is to get the highest number possible.</p>
                         <div className='flex flex-col sm:flex-row'>
@@ -61,8 +65,25 @@ const Project = () => {
                             </div>
                         </div>
                         <div className='pt-3'>
-                            <Button href='https://edusebass.github.io/DICEE-website/'>Visit Website</Button>
+                            <Button icon={<MdOutlinePageview/>} href='https://edusebass.github.io/DICEE-website/'>Visit Website</Button>
                         </div>
+                            <Button icon={<BiLogoGithub/>} href='https://github.com/edusebass/DICEE-website'>Visit Repo</Button>
+                    </div>
+
+                    <div className=' flex flex-col p-5 justify-center items-center'>
+                        <p className="inline text-white font-bold pb-2">Control Inventory</p>
+                        <img src={projectc} className='w-60 h-auto p-2 rounded-xl'/>
+                        <p className='text-white items-start p-7'>Project realized with C++ his function is inventory control of products, and CRUD of admins and clients. The data saved in the files .txt</p>
+                        <div className='flex flex-col sm:flex-row'>
+                            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-sky-200 text-xl">
+                            <BiLogoCPlusPlus/>
+                            <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">C++</p>        
+                        </div>
+                        </div>
+                        <div className='pt-3'>
+                            <Button icon={<BiLogoGithub/>} href='https://github.com/edusebass/import-project-cplusplus.git'>Visit repo</Button>
+                        </div>
+                            
                     </div>
                 </div> 
             </div>
