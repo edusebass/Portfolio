@@ -1,4 +1,4 @@
-import React, {useSate, useEffect } from "react";
+import {useEffect } from "react";
 
 import {useState} from "react";
 import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
