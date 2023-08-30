@@ -1,18 +1,36 @@
+import React, {useSate, useEffect } from "react";
+
 import {useState} from "react";
-import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
+import {FaWhatsapp, FaLinkedin, FaGithub, FaBuromobelexperte} from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
     
 
 const Header = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false);
+    const [scrolling, setScrolling] = useState(false);
+
+    const handleScroll = () => {
+        if(window.scrollY > 100) {
+            setScrolling(true);
+        } else {
+            setScrolling(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    },[])
 
     const toggleNav = () => {
         setIsNavOpen(!isNavOpen);
     };
 
     return (
-            <nav className=" flex justify-between flex-wrap shadow-lg p-3 text-white sm:fixed sm:p-4 sm:w-full">
+            <nav className={`flex justify-between flex-wrap shadow-lg p-3 text-white sm:fixed sm:p-4 sm:w-full ${scrolling ? "  bg-yellow-400 scale-90 text-black transition delay-150 duration-300 ease-in-out" : ""}`}>
                 <div className="flex items-center flex-shrink-0 text- mr-6">
                     <span className="font-semibold tracking-tight pl-10 text-4xl">EA</span>
                 </div>
