@@ -9,8 +9,8 @@ const AboutMe = () => {
         <>
         <div className="flex justify-center p-3"> 
             <div className="text-white text-5xl">
-                <h2 className="text-yellow-400 font-extrabold text-center pb-8">Skills</h2>
-                <div className="flex flex-wrap grow justify-center p-10 border-solid border-4 rounded-lg border-yellow-500 ">
+                <h2 className="text-yellow-400 font-extrabold text-center pb-8 ">Skills</h2>
+                <div className="flex flex-wrap grow justify-center p-10 border-solid border-4 rounded-lg border-yellow-500 shadow-2xl ">
                     <div className="p-1 px-3">
                         <BiLogoPython/>
                         <p className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center">Python</p>

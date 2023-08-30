@@ -1,7 +1,7 @@
 import React, {useSate, useEffect } from "react";
 
 import {useState} from "react";
-import {FaWhatsapp, FaLinkedin, FaGithub, FaBuromobelexperte} from "react-icons/fa";
+import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
     
 
