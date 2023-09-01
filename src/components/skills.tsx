@@ -3,7 +3,7 @@ import {FaJava} from "react-icons/fa";
 import {BsGit} from "react-icons/bs";
 import {SiJupyter, SiMysql, SiMicrosoftsqlserver, SiApachecouchdb} from "react-icons/si";
 
-const AboutMe = () => {
+const skills = () => {
     
     return (
         <>
@@ -78,4 +78,4 @@ const AboutMe = () => {
     );
 };
 
-export default AboutMe;
+export default skills;
