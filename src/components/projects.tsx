@@ -4,6 +4,7 @@ import projectc from '../../public/img/projectc++.png';
 import detectot from '../../public/img/detector de caras.png';
 import javacrud from '../../public/img/JAVACRTUD.png';
 import apipokemon from '../../public/img/apìpokemon.png';
+import calculador from '../../public/img/calculadora.png';
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoGithub, BiLogoCPlusPlus,BiLogoPython, BiLogoJava } from 'react-icons/bi';
 import { MdOutlinePageview } from 'react-icons/md';
 import { SiMysql } from 'react-icons/si';
@@ -166,8 +167,30 @@ const Project = () => {
                         
                     </div>
 
-                    
-                    
+                </div>
+                <div className='p-2 lex flex-col sm:p-10 f sm:justify-center sm:flex sm:flex-row'>
+                    <div className='flex flex-col p-5 justify-center items-center'>
+                        <p className="inline text-white font-bold pb-2">App Calculadora Java</p>
+                        <img src={calculador} className='w-auto h-80 p-2 rounded-xl' />
+                        <p className='text-white items-start p-7'>
+                        Java swing calculator with all the features of a normal trigonometric calculator
+                        </p>
+                        <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
+                            <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
+                                <div className="flex items-center"> 
+                                <div className=" text-white p-1 px-3 flex flex-col items-center">
+                                    <BiLogoJava className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration- text-orange-500"/>    
+                                    <p className=" text-sm">JAVA</p>    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div className='pt-3'>
+                            <Button icon={<BiLogoGithub/>} href='https://github.com/edusebass/javaxCalculadora.git'>Visit Repo</Button>
+                        </div>
+                        
+                    </div>
                 </div>
             
         </>
