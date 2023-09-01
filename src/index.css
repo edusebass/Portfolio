@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Estilos para la barra de desplazamiento en navegadores webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+    background-color: black
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:  rgb(125, 125, 125); /* Color de la barra de desplazamiento */
+    border-radius: 2rem; 
+}
+
+
+
