@@ -3,6 +3,7 @@ import imgDicee from '../../public/img/dicee.png';
 import projectc from '../../public/img/projectc++.png';
 import detectot from '../../public/img/detector de caras.png';
 import javacrud from '../../public/img/JAVACRTUD.png';
+import apipokemon from '../../public/img/apìpokemon.png';
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoGithub, BiLogoCPlusPlus,BiLogoPython, BiLogoJava } from 'react-icons/bi';
 import { MdOutlinePageview } from 'react-icons/md';
 import { SiMysql } from 'react-icons/si';
@@ -134,6 +135,36 @@ const Project = () => {
                         </div>
                     </div>
 
+                    <div className='flex flex-col p-5 justify-center items-center'>
+                        <p className="inline text-white font-bold pb-2">ApiPokemon</p>
+                        <img src={apipokemon} className='w-80 h-auto p-2 rounded-xl' />
+                        <p className='text-white items-start p-7'>
+                        Web page that brings elemntos of a pokemon api and every time you reload you can see new Pokemon cards.
+                        </p>
+                        <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
+                            <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
+                                <div className="flex items-center"> 
+                                <div className=" text-white p-1 px-3 flex flex-col items-center">
+                                    <BiLogoHtml5 className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration- text-orange-500"/>    
+                                    <p className=" text-sm">HTML</p>    
+                                </div>
+                                <div className=" text-white  p-1 px-3 flex flex-col items-center">
+                                    <BiLogoCss3 className="text-blue-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000"/>
+                                    <p className=" text-sm text-center">CSS</p>
+                                </div>
+                                <div className=" text-white p-1 px-3 flex flex-col items-center ">
+                                    <BiLogoJavascript className=" text-yellow-400 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000 "/> 
+                                    <p className=" text-sm">JavaScript</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='pt-3'>
+                            <Button icon={<MdOutlinePageview/>} href='https://edusebass.github.io/ApiPokemon/'>Visit Website</Button>
+                        </div>
+                            <Button icon={<BiLogoGithub/>} href='https://github.com/edusebass/ApiPokemon.git'>Visit Repo</Button>
+                        
+                    </div>
 
                     
                     
