@@ -13,7 +13,7 @@ const intro = () => {
     });
 
     return (
-        <div className='flex px-1 py-5 sm:px-52 sm:py-40 text-white w-full h-full'>
+        <div className='flex px-1 py-5 sm:px-52 sm:py-40 text-white w-full h-full' id='intro'>
             <div className='flex'>
                 <img src={imgPerfil} className='my-12 hidden sm:block sm:h-auto sm:max-h-56 rounded-full'/>
                 <div className={`px-7 pt-7 sm:px-20 ${ shouldAnimate ? "animate-fade-right animate-once animate-duration-[600ms] animate-delay-300" : ""}`}>

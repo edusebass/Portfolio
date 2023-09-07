@@ -5,7 +5,7 @@
 
 const footer = () => {
     return (
-        <footer className="bg-neutral-900 text-center text-white">
+        <footer className="bg-neutral-900 text-center text-white" id="footer">
             <div className="container px-6 pt-6 mx-auto">
                 {/* <!-- Social media icons container --> */}
                 <div className="mb-6 flex justify-center w-full">

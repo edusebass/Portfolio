@@ -3,7 +3,7 @@ import {useEffect } from "react";
 import {useState} from "react";
 import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-    
+
 
 const Header = () => {
 
@@ -41,19 +41,19 @@ const Header = () => {
                 </div>
                 <div className={`w-full flex-grow justify-between sm:flex sm:items-center sm:w-auto ${isNavOpen ? "block" : "hidden"}`}>
                     <div className="text-sm sm:flex-grow">
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline  mr-14 uppercase sm:normal-case" >
+                        <a href="#intro" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline  mr-14 uppercase sm:normal-case" >
                             Home
                         </a>
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                        <a href="#skills" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
                             Skills
                         </a>
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                        <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
                             Projects
                         </a>
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                        <a href="#aboutme" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
                             About me
                         </a>
-                        <a href="" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                        <a href="#footer" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
                             Contact
                         </a>
                     </div>
