@@ -207,22 +207,24 @@ const Project = () => {
                         <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
                             <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
                                 <div className="flex items-center"> 
-                                <div className=" text-white p-1 px-3 flex flex-col items-center">
-                                    <BiLogoJava className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration- text-orange-500"/>    
-                                    <p className=" text-sm">JAVA</p>    
-                                </div>
+                                    <div className=" text-white p-1 px-3 flex flex-col items-center">
+                                        <BiLogoJava className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration- text-orange-500"/>    
+                                        <p className=" text-sm">JAVA</p>    
+                                    </div>
                                 
                                 </div>
                             </div>
                         </div>
-                        
+                        <div className='pt-3'>
+                            <Button icon={<BiLogoGithub/>} href='https://github.com/bryandelgado99/Proyecto-Farmacia--2do-Bimestre'>Visit Repo</Button>
+                        </div>
                     </div>
                     
                     <div className='flex flex-col p-5 justify-center items-center'>
                         <p className="inline text-white font-bold pb-2">TodoList</p>
                         <img src={tolist} className='w-80 h-auto p-2 rounded-xl' />
                         <p className='text-white items-start p-7'>
-                        Web application on task management, with CRUD functionality and a calendar.
+                        Group Project. Web application on task management, with CRUD functionality and a calendar.
                         </p>
                         <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
                             <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
@@ -240,11 +242,14 @@ const Project = () => {
                                         <p className=" text-sm">JavaScript</p>
                                     </div>
                                 </div>
-                            </div>
+                                
+                            </div> 
                         </div>
-                       
-                        
+                        <div className='pt-3'>
+                            <Button icon={<BiLogoGithub/>} href='https://github.com/brittanypallasco2003/Organizador'>Visit Repo</Button>
+                        </div>
                     </div>
+                    
 
                 </div>
             
