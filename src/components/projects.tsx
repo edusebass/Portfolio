@@ -219,7 +219,7 @@ const Project = () => {
                     </div>
                     
                     <div className='flex flex-col p-5 justify-center items-center'>
-                        <p className="inline text-white font-bold pb-2">ApiPokemon</p>
+                        <p className="inline text-white font-bold pb-2">TodoList</p>
                         <img src={tolist} className='w-80 h-auto p-2 rounded-xl' />
                         <p className='text-white items-start p-7'>
                         Web application on task management, with CRUD functionality and a calendar.
