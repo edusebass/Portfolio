@@ -15,11 +15,13 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "tw-elements-react": "1.0.0-alpha1",
+    "typed": "10.0.0-beta.2",
     "typed.js": "^2.0.16"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "@types/typed.js": "^2.0.9",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^6.4.1",
     "@vitejs/plugin-react-swc": "^3.3.2",
