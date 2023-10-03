@@ -17,13 +17,13 @@ import Button from './button';
 const Project = () => {
     return (
         <>
-                <h2 className="flex text-5xl font-bold text-yellow-500 justify-center pb-10" id='projects'>Projects</h2>
+                <h2 className="flex text-5xl font-bold text-yellow-500 justify-center pb-10" id='projects'>Projectos</h2>
 
                 <div className='p-2 lex flex-col sm:p-10 f sm:justify-between sm:flex sm:flex-row '>
                     <div className=' flex flex-col p-5 justify-center items-center sm:'>
                         <p className="inline text-white font-bold pb-2">SIMON DICEE WEBSITE</p>
                         <img src={imgSimon} className='w-60 h-auto p- rounded-xl'/>
-                        <p className='text-white items-start p-7'>Video game about interactive memorization</p>
+                        <p className='text-white items-start p-7'>Videojuego sobre memorización interactiva.</p>
                         <div className='flex flex-col sm:flex-row text-5xl'>
                                 <div className="flex items-center"> 
                                     <div className=" text-white p-1 px-3 flex flex-col items-center">
@@ -51,9 +51,9 @@ const Project = () => {
                     </div>
 
                     <div className=' flex flex-col p-5 justify-center items-center '>
-                        <p className="inline text-white font-bold pb-2">Game WEBSITE</p>
+                        <p className="inline text-white font-bold pb-2">Dados Game WEBSITE</p>
                         <img src={imgDicee} className='w-60 h-auto p-2 rounded-xl'/>
-                        <p className='text-white items-start p-7'>Game website that allows users to participate in an online dice game. The goal of the game is to get the highest number possible.</p>
+                        <p className='text-white items-start p-7'>Sitio web de juegos que permite a los usuarios participar en un juego de dados online. El objetivo del juego es conseguir el mayor número posible.</p>
                         <div className='flex flex-col sm:flex-row text-5xl'>
                                 <div className="flex items-center"> 
                                     <div className=" text-white p-1 px-3 flex flex-col items-center">
@@ -81,9 +81,10 @@ const Project = () => {
                     </div>
                     
                     <div className=' flex flex-col p-5 justify-center items-center'>
-                        <p className="inline text-white font-bold pb-2">Control Inventory</p>
+                        <p className="inline text-white font-bold pb-2">APP Control de Inventario</p>
                         <img src={projectc} className='w-60 h-auto p-2 rounded-xl'/>
-                        <p className='text-white items-start p-7'>Project realized with C++ his function is inventory control of products, and CRUD of admins and clients. The data saved in the files .txt</p>
+                        <p className='text-white items-start p-7'>Proyecto realizado con C++ su función es el control de inventarios de productos, y CRUD de administradores y clientes. 
+                        Los datos seguardan en archivos(.txt).</p>
                         <div className='flex flex-col sm:flex-row'>
                             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-sky-200 text-5xl">
                             <BiLogoCPlusPlus/>
@@ -104,7 +105,7 @@ const Project = () => {
                         <p className="inline text-white font-bold pb-2">App Java Crud</p>
                         <img src={javacrud} className='w-60 h-auto p-2 rounded-xl'/>
                         <p className='text-white items-start p-7'>
-                        An app built with Java Swing that handles data connected to a MySQL database.
+                        Una aplicación creada con Java Swing que maneja datos conectados a una base de datos MySQL.
                         </p>
                         <div className='flex flex-col sm:flex-row'>
                             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-white text-6xl">
@@ -125,7 +126,7 @@ const Project = () => {
                         <p className="inline text-white font-bold pb-2">Detector de rostros</p>
                         <img src={detectot} className='w-60 h-auto p-2 rounded-xl' />
                         <p className='text-white items-start p-7'>
-                        App with python that detects faces
+                        App con python que detecta todo tipo de rostros.
                         </p>
                         <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
                             <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
@@ -145,10 +146,10 @@ const Project = () => {
                     </div>
 
                     <div className='flex flex-col p-5 justify-center items-center'>
-                        <p className="inline text-white font-bold pb-2">ApiPokemon</p>
+                        <p className="inline text-white font-bold pb-2">ApiPokemon Cartas</p>
                         <img src={apipokemon} className='w-80 h-auto p-2 rounded-xl' />
                         <p className='text-white items-start p-7'>
-                        Web page that brings elemntos of a pokemon api and every time you reload you can see new Pokemon cards.
+                        Pagina web que trae elementos de una api de pokemon y cada vez que recargas puedes ver nuevas cartas de pokemon.
                         </p>
                         <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
                             <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
@@ -181,7 +182,7 @@ const Project = () => {
                         <p className="inline text-white font-bold pb-2">App Calculadora Java</p>
                         <img src={calculador} className='w-auto h-80 p-2 rounded-xl' />
                         <p className='text-white items-start p-7'>
-                        Java swing calculator with all the features of a normal trigonometric calculator
+                        Calculadora swing Java con todas las características de una calculadora trigonométrica normal.
                         </p>
                         <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
                             <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
@@ -202,7 +203,8 @@ const Project = () => {
                         <p className="inline text-white font-bold pb-2">App Gestion Farmacia</p>
                         <img src={appfarmacia} className='w-auto h-80 p-2 rounded-xl' />
                         <p className='text-white items-start p-7'>
-                        App made with java which consists of managing products and ralizar sales by cashier, and admnistrar the stock of products and people. My role was to work on sales performance and adminstrador section.
+                        App realizada con java que consiste en gestionar productos y ralizar las ventas por caja, y administrar el stock de productos y personas. <br />
+                        Gestiona ventas y devuelve facturas de las compras y reportes.
                         </p>
                         <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
                             <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">
@@ -224,7 +226,7 @@ const Project = () => {
                         <p className="inline text-white font-bold pb-2">TodoList</p>
                         <img src={tolist} className='w-80 h-auto p-2 rounded-xl' />
                         <p className='text-white items-start p-7'>
-                        Group Project. Web application on task management, with CRUD functionality and a calendar.
+                        Proyecto de grupo. Aplicación web de gestión de tareas, con funcionalidad CRUD.
                         </p>
                         <div className='flex flex-col items-center justify-center text-center sm:flex-row'>
                             <div className="text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-1000 p-1 px-3 text-5xl text-center justify-center">

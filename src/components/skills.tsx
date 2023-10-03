@@ -9,7 +9,7 @@ const skills = () => {
         <>
         <div className="flex justify-center p-3" id="skills"> 
             <div className="text-white text-8xl">
-                <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-3xl ">Skills</h2>
+                <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-3xl ">Habilidades && Herramientas</h2>
                 <div className="flex flex-wrap grow justify-center p-10 ">
                     <div className=" text-blue-300 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3">
                         <BiLogoPython/>

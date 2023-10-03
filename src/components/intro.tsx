@@ -19,7 +19,7 @@ const intro = () => {
                 <div className={`px-7 pt-7 sm:px-20 ${ shouldAnimate ? "animate-fade-right animate-once animate-duration-[600ms] animate-delay-300" : ""}`}>
                     <h2 className='font-bold text-lg '>Hi, I´m Eduardo Almachi 👋</h2>
                     <h2 className='text-5xl font-extrabold text-yellow-400 sm:text-7xl'>Software Developer</h2>
-                    <p className='py-2 text-slate-400 pb-4'>Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital word.</p>
+                    <p className='py-2 text-slate-400 pb-4'>Entusiasta de la tecnología dedicado con una curiosidad insaciable por desentrañar las complejidades de nuestro mundo digital.</p>
                     <Button icon={<BiDownload/>} href={CV}>Download CV</Button>
                 </div>
             </div>
