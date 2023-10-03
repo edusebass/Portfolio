@@ -68,15 +68,14 @@ const footer = () => {
                 {/* <!-- Copyright information --> */}
                 <div className="mb-6">
                     <p>
-                    If you liked what you saw, don’t hesitate to contact me.
-                        What are you waiting for? Let’s work together!!
+                    Si te gustó lo que viste, no dudes en contactarme.
                     </p>
                 </div>
             </div>
 
             {/* <!-- Copyright section --> */}
             <div className="p-4 text-center bg-black bg-opacity-20">
-                © 2023 Copyright: Created with 💓 by Eduardo Almachi
+                © 2023 Copyright: Creado con 💓 by Eduardo Almachi
             </div>
         </footer>
     );
