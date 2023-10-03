@@ -222,7 +222,7 @@ const Project = () => {
                         <div className='pt-3'>
                             <Button icon={<BiLogoGithub/>} href='https://github.com/bryandelgado99/Proyecto-Farmacia--2do-Bimestre'>Visit Repo</Button>
                         </div>
-                        <Button icon={<BiLogoYoutube/>} href=''>Ver funcionalidad</Button>
+                        <Button icon={<BiLogoYoutube/>} href='https://youtu.be/QCb2bVLnhnM'>Ver funcionalidad</Button>
                     </div>
                     
                     <div className='flex flex-col p-5 justify-center items-center'>
