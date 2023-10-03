@@ -7,7 +7,7 @@ import apipokemon from '../../public/img/apìpokemon.png';
 import calculador from '../../public/img/calculadora.png';
 import appfarmacia from '../../public/img/appfarmacia.png';
 import tolist from '../../public/img/tolist.png';
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoGithub, BiLogoCPlusPlus,BiLogoPython, BiLogoJava } from 'react-icons/bi';
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoYoutube, BiLogoGithub, BiLogoCPlusPlus,BiLogoPython, BiLogoJava } from 'react-icons/bi';
 import { MdOutlinePageview } from 'react-icons/md';
 import { SiMysql } from 'react-icons/si';
 
@@ -213,6 +213,8 @@ const Project = () => {
                                         <BiLogoJava className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration- text-orange-500"/>    
                                         <p className=" text-sm">JAVA</p>    
                                     </div>
+                                    
+
                                 
                                 </div>
                             </div>
@@ -220,6 +222,7 @@ const Project = () => {
                         <div className='pt-3'>
                             <Button icon={<BiLogoGithub/>} href='https://github.com/bryandelgado99/Proyecto-Farmacia--2do-Bimestre'>Visit Repo</Button>
                         </div>
+                        <Button icon={<BiLogoYoutube/>} href=''>Ver funcionalidad</Button>
                     </div>
                     
                     <div className='flex flex-col p-5 justify-center items-center'>
