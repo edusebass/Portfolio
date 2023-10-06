@@ -13,7 +13,7 @@ const footer = () => {
                             href="https://mail.google.com/mail/?view=cm&to=edu03sebas@gmail.com"
                             target="_blank"
                             type="button"
-                            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal"
+                            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal hover:bg-white hover:text-black"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const footer = () => {
                             href="https://www.linkedin.com/in/eduardo-almachi-727730238/"
                             target="_blank"
                             type="button"
-                            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal transition duration-150 ease-in-out"
+                            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal transition duration-150 ease-in-out hover:bg-white hover:text-black"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const footer = () => {
                             href="https://github.com/edusebass"
                             target="_blank"
                             type="button"
-                            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal "
+                            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal hover:bg-white hover:text-black"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
