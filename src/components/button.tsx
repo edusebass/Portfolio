@@ -1,13 +1,4 @@
-import { ReactNode, ReactElement } from 'react';
-
-interface ButtonProps {
-  children: ReactNode;
-  href: string;
-  
-  icon: ReactElement;
-}
-
-const Button = ({ children, href, icon }: ButtonProps) => {
+const Button = ({href, icon }: ButtonProps) => {
   return (
     <div className="p-1">
         <a href={href} target='_blank'>
@@ -15,7 +6,6 @@ const Button = ({ children, href, icon }: ButtonProps) => {
             <span className="fill-current w-4 h-4 mr-2 text-black text-xl">
               {icon}
             </span>
-            <span>{children}</span>
           </button>
         </a>
     </div>
