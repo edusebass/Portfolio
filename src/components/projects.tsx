@@ -7,8 +7,8 @@ import javacrud from '../../public/img/JAVACRTUD.png';
 // import calculador from '../../public/img/calculadora.png';
 // import appfarmacia from '../../public/img/appfarmacia.png';
 // import tolist from '../../public/img/tolist.png';
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoYoutube, BiLogoGithub, BiLogoCPlusPlus,BiLogoPython, BiLogoJava } from 'react-icons/bi';
-// import { MdOutlinePageview } from 'react-icons/md';
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoYoutube, BiLogoCPlusPlus,BiLogoPython, BiLogoJava } from 'react-icons/bi';
+
 // import { SiMysql } from 'react-icons/si';
 
 
@@ -30,7 +30,6 @@ const Project = () => {
                 iconColors={iconColors}
                 iconNames={iconNames}
                 linkRepo='https://github.com/edusebass/SIMONDICEE-WEBSITE'
-                iconButton={BiLogoGithub}
                 />
 
                 {/* <Card img={imgDicee} titulo='Dados Game WEBSITE' fecha='Julio 2023'

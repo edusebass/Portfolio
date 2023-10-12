@@ -1,4 +1,6 @@
 import Button from "./button";
+import { MdOutlinePageview } from 'react-icons/md';
+import { BiLogoGithub } from 'react-icons/bi';
 
 const Card: React.FC<Card> = ({ 
     img,
@@ -8,8 +10,7 @@ const Card: React.FC<Card> = ({
     icons,
     iconColors,
     iconNames,
-    linkRepo,
-    iconButton
+    linkRepo
 }) => {
     
     return (
@@ -29,8 +30,9 @@ const Card: React.FC<Card> = ({
                         </div>
                     ))}
                 </div>
-                <div className="mx-2">
-                    <Button href={linkRepo} icon={iconButton} descripButton="Repo"/>
+                <div className=" flex flex-row justify-center mx-2 mt-5">
+                    <Button href={linkRepo} icon={<BiLogoGithub/>} descripButton="Repo"/>
+                    <Button href={linkRepo} icon={<MdOutlinePageview/>} descripButton="WebSite"/>
                 </div>
             </div>
         </>

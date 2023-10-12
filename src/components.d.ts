@@ -6,8 +6,7 @@ interface Card{
     icons: IconType[],
     iconColors: string[],
     iconNames: string[],
-    linkRepo: string,
-    iconButton: ReactElement
+    linkRepo: string
 }
 
 interface ButtonProps {
