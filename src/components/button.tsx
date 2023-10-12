@@ -1,4 +1,4 @@
-const Button = ({href, icon }: ButtonProps) => {
+const Button = ({href, icon, descripButton }: ButtonProps) => {
   return (
     <div className="p-1">
         <a href={href} target='_blank'>
@@ -6,6 +6,7 @@ const Button = ({href, icon }: ButtonProps) => {
             <span className="fill-current w-4 h-4 mr-2 text-black text-xl">
               {icon}
             </span>
+            <span>{descripButton}</span>
           </button>
         </a>
     </div>

@@ -20,7 +20,6 @@ const Project = () => {
     const icons1 = [BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery];
     const iconColors = ['text-orange-600', 'text-blue-500', 'text-yellow-400', 'text-blue-700'];
     const iconNames = ['HTML5', 'CSS3', 'JavaScript', 'jQuery'];
-    const iconsCplus = [BiLogoCPlusPlus];
 
     return (
         <>

@@ -29,8 +29,8 @@ const Card: React.FC<Card> = ({
                         </div>
                     ))}
                 </div>
-                <div>
-                    <Button href={linkRepo} icon={iconButton}/>
+                <div className="mx-2">
+                    <Button href={linkRepo} icon={iconButton} descripButton="Repo"/>
                 </div>
             </div>
         </>
