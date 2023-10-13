@@ -74,7 +74,7 @@ const footer = () => {
             </div>
 
             {/* <!-- Copyright section --> */}
-            <div className="p-4 text-center bg-black bg-opacity-20">
+            <div className="p-4 text-center bg-slate-200 bg-opacity-20">
                 © 2023 Copyright: Creado con 💓 by Eduardo Almachi
             </div>
         </footer>

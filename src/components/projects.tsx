@@ -23,7 +23,7 @@ const Project = () => {
 
     return (
         <>
-            <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-3xl ">Projectos</h2>
+            <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-3xl " id='projects'>Projectos</h2>
             <section className="justify-center  flex flex-wrap min-h-screen text">
                 <Card img={imgSimon} titulo='SIMON DICEE WEBSITE' fecha='Julio 2023'
                 descripcion='Videojuego sobre mem<orización interactiva.'
