@@ -7,7 +7,9 @@ import apipokemon from '../../public/img/apìpokemon.png';
 import calculador from '../../public/img/calculadora.png';
 import appfarmacia from '../../public/img/appfarmacia.png';
 import tolist from '../../public/img/tolist.png';
-import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlus,BiLogoPython, BiLogoJava } from 'react-icons/bi';
+import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlus,BiLogoPython, BiLogoJava,
+    BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase } from 'react-icons/bi';
+import { TbBrandVite } from 'react-icons/tb';
 
 // import { SiMysql } from 'react-icons/si';
 
@@ -25,6 +27,17 @@ const Project = () => {
         <>
             <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-3xl " id='projects'>Projectos</h2>
             <section className="justify-center  flex flex-wrap min-h-screen text">
+                <Card 
+                img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1697491307/Portfolio/llantas_isrotf.png'
+                titulo='Stock Llantas'
+                fecha='Octubre 2023'
+                descripcion='Landing page que muestra por medio de un buscador la medida de neumatico que el cliente busca.'
+                icons={[BiLogoHtml5, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, TbBrandVite, BiLogoFirebase]}
+                iconColors={["text-orange-600", "text-sky-500", "text-sky-700", "text-blue-600", "text-yellow-600", "text-yellow-500"]}
+                iconNames={["HTML5", "React", "Tailwind CSS", "TypeScript", "Vite", "Firebase"]}
+                linkRepo='https://github.com/edusebass/llantas'
+                linkWeb='https://llantas.vercel.app/'
+                />
                 <Card img={imgSimon} titulo='SIMON DICEE WEBSITE' fecha='Julio 2023'
                 descripcion='Videojuego sobre mem<orización interactiva.'
                 icons={icons1}
@@ -94,9 +107,17 @@ const Project = () => {
                 iconNames={['HTML5', 'CSS3', 'JavaScript']}
                 linkRepo='https://github.com/brittanypallasco2003/Organizador'
                 />
-
-            </section>    
-            
+                <Card 
+                img="https://res.cloudinary.com/dwowtb0ya/image/upload/v1697490315/Portfolio/portfolio_taknef.png"
+                titulo='Portafolio Personal'
+                fecha='Octubre 2023'
+                descripcion='Portafolio personal en donde se muestra todo los proyectos que realizado e informacion sobre mi.'
+                icons={[BiLogoHtml5, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, TbBrandVite]}
+                iconColors={["text-orange-600", "text-sky-500", "text-sky-700", "text-blue-600", "text-yellow-600"]}
+                iconNames={["HTML5", "React", "Tailwind CSS", "TypeScript", "Vite"]}
+                linkRepo='https://github.com/edusebass/Portfoliox'
+                />
+            </section>      
         </>
     )
 }
