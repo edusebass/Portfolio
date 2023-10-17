@@ -8,10 +8,10 @@ import calculador from '../../public/img/calculadora.png';
 import appfarmacia from '../../public/img/appfarmacia.png';
 import tolist from '../../public/img/tolist.png';
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlus,BiLogoPython, BiLogoJava,
-    BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase } from 'react-icons/bi';
+    BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs } from 'react-icons/bi';
 import { TbBrandVite } from 'react-icons/tb';
-
-// import { SiMysql } from 'react-icons/si';
+import { SiExpress, SiMysql  } from 'react-icons/si';
+import { AiOutlinePercentage } from 'react-icons/ai';
 
 
 // import Button from './button';
@@ -94,9 +94,9 @@ const Project = () => {
                 <Card img={appfarmacia} titulo='App Gestion Farmacia' fecha='Septiembre 2023'
                 descripcion='App realizada con java que consiste en gestionar productos y ralizar las ventas por caja, y administrar el stock de productos y personas.
                 Gestiona ventas y devuelve facturas de las compras y reportes.'
-                icons={[BiLogoJava]}
-                iconColors={["text-orange-600"]}
-                iconNames={["Java"]}
+                icons={[BiLogoJava, SiMysql]}
+                iconColors={["text-orange-600", 'text-sky-700']}
+                iconNames={["Java", 'MySQL']}
                 linkRepo='https://github.com/bryandelgado99/Proyecto-Farmacia--2do-Bimestre'
                 linkWeb='https://www.youtube.com/watch?v=QCb2bVLnhnM'
                 />
@@ -116,6 +116,17 @@ const Project = () => {
                 iconColors={["text-orange-600", "text-sky-500", "text-sky-700", "text-blue-600", "text-yellow-600"]}
                 iconNames={["HTML5", "React", "Tailwind CSS", "TypeScript", "Vite"]}
                 linkRepo='https://github.com/edusebass/Portfoliox'
+                />
+                <Card 
+                img="https://res.cloudinary.com/dwowtb0ya/image/upload/v1697585921/Portfolio/genreator_name_mfpdkr.png"
+                titulo='Generator Name'
+                fecha='Octubre 2023'
+                descripcion='WebPage hecha con backend para generar nombres aleatorios'
+                icons={[BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, SiExpress, AiOutlinePercentage]}
+                iconColors={['text-orange-600', 'text-blue-500', 'text-yellow-400', 'text-green-500', 'text-black', 'text-red-500']}
+                iconNames={['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express.js', 'EJS']}
+                linkRepo='https://github.com/edusebass/GeneratorName'
+                linkWeb='https://generator-name.vercel.app/'
                 />
             </section>      
         </>
