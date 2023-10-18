@@ -126,6 +126,17 @@ const Project = () => {
                 linkRepo='https://github.com/edusebass/GeneratorName'
                 linkWeb='https://generator-name.vercel.app/'
                 />
+                <Card 
+                img="https://res.cloudinary.com/dwowtb0ya/image/upload/v1697660011/Portfolio/Captura_de_pantalla_2023-10-18_151306_crht5r.png"
+                titulo="To Do list"
+                fecha="Octubre 2023"
+                descripcion='WebPage hecha con backend para guardar y anotar tareas TODO LIST'
+                icons={[BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, SiExpress, AiOutlinePercentage]}
+                iconColors={['text-orange-600', 'text-blue-500', 'text-yellow-400', 'text-green-500', 'text-black', 'text-red-500']}
+                iconNames={['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express.js', 'EJS']}
+                linkRepo='https://github.com/edusebass/ToDolist'
+                linkWeb='https://to-dolist-kzwz94jbd-edusebass.vercel.app/'
+                />
             </section>      
         </>
     )
