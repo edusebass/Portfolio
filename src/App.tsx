@@ -6,7 +6,6 @@ import Skills from './components/skills';
 import Project from './components/projects';
 import AboutMe from './components/AboutMe';
 
-
 function App() {
   
   return (
