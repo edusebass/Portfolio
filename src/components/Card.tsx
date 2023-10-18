@@ -31,7 +31,7 @@ const Card: React.FC<Card> = ({
                         </div>
                     ))}
                 </div>
-                <div className=" flex flex-row justify-center mx-2 mt-5">
+                <div className=" flex flex-row justify-center mx-2 mt-5 mb-3">
                     <Button href={linkRepo} icon={<BiLogoGithub/>} descripButton="Repo"/>
                     <Button href={linkWeb} icon={<MdOutlinePageview/>} descripButton="WebSite"/>
                 </div>
