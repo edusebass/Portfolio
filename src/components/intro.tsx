@@ -22,8 +22,8 @@ const Intro = () => {
 
   return (
     <div className='flex px-1 py-5 sm:px-52 sm:py-40 text-white w-full h-full' id='intro'>
-      <div className='flex'>
-        <img src={imgPerfil} className='my-12 hidden sm:block sm:h-auto sm:max-h-60 rounded-3xl' />
+      <div className='sm:flex'>
+        <img src={imgPerfil} className='ml-20 max-h-44 sm:my-12 sm:block sm:h-auto sm:max-h-60 rounded-3xl' />
         <div className='px-7 pt-7 sm:px-20'>
           <span className="font-mono whitespace-no-wrap border-r-4 border-solid ">{text}</span>
           <h2 className='text-5xl font-extrabold text-yellow-400 sm:text-7xl'>Software Developer</h2>
