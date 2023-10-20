@@ -8,10 +8,10 @@ import calculador from '../../public/img/calculadora.png';
 import appfarmacia from '../../public/img/appfarmacia.png';
 import tolist from '../../public/img/tolist.png';
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlus,BiLogoPython, BiLogoJava,
-    BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs } from 'react-icons/bi';
+    BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs, BiSolidFileJson } from 'react-icons/bi';
 import { TbBrandVite } from 'react-icons/tb';
 import { SiExpress, SiMysql  } from 'react-icons/si';
-import { AiOutlinePercentage } from 'react-icons/ai';
+import { AiOutlinePercentage, AiFillApi } from 'react-icons/ai';
 
 import Card from './Card';
 
@@ -136,6 +136,17 @@ const Project = () => {
                 iconNames={['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express.js', 'EJS']}
                 linkRepo='https://github.com/edusebass/ToDolist'
                 linkWeb='https://to-dolist-kzwz94jbd-edusebass.vercel.app/'
+                />
+                <Card
+                img="https://res.cloudinary.com/dwowtb0ya/image/upload/v1697834315/Portfolio/tacotown_nu1fe6.png"
+                titulo="TacoTown"
+                fecha="Octubre 2023"
+                descripcion='Web Page que indica las recetas para un taco, realizado con backend y conectado a una API'
+                icons={[BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, SiExpress, AiOutlinePercentage, BiSolidFileJson, AiFillApi]}
+                iconColors={['text-orange-600', 'text-blue-500', 'text-yellow-400', 'text-green-500', 'text-black', 'text-red-500', 'text-gray-500']}
+                iconNames={['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express.js', 'EJS', 'JSON', 'API']}
+                linkRepo='https://github.com/edusebass/TacoTown'
+                linkWeb='https://taco-town.vercel.app/'
                 />
             </section>      
         </>
