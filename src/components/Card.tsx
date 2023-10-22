@@ -16,7 +16,7 @@ const Card: React.FC<Card> = ({
     
     return (
         <>
-            <div className="rounded-2xl bg-neutral-300 max-w-sm m-3 overflow-hidden shadow-lg">
+            <div className="rounded-3xl bg-white max-w-min max-h-full m-2 overflow-hidden shadow-lg">
                 <img className="w-full" src={img} alt="Sunset in the mountains"/>
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{titulo}</div>

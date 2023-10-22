@@ -13,5 +13,14 @@
     border-radius: 2rem; 
 }
 
+#skills {
+    /* Agrega tu ruta correcta a la imagen de fondo */
+    background-image: url('/public/img/codigo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 
 

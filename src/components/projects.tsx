@@ -23,7 +23,7 @@ const Project = () => {
 
     return (
         <>
-            <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-3xl " id='projects'>Projectos</h2>
+            <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-10 " id='projects'>PROJECTOS</h2>
             <section className="justify-center  flex flex-wrap min-h-screen text">
                 <Card 
                 img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1697491307/Portfolio/llantas_isrotf.png'
