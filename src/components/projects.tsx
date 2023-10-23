@@ -7,6 +7,7 @@ import apipokemon from '../../public/img/apìpokemon.png';
 import calculador from '../../public/img/calculadora.png';
 import appfarmacia from '../../public/img/appfarmacia.png';
 import tolist from '../../public/img/tolist.png';
+import apiperson from '../../public/img/apiperson.png';
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlus,BiLogoPython, BiLogoJava,
     BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs, BiSolidFileJson } from 'react-icons/bi';
 import { TbBrandVite } from 'react-icons/tb';
@@ -24,7 +25,7 @@ const Project = () => {
     return (
         <>
             <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-10 " id='projects'>PROJECTOS</h2>
-            <section className="justify-center  flex flex-wrap min-h-screen text">
+            <section className="justify-center flex flex-wrap ">
                 <Card 
                 img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1697491307/Portfolio/llantas_isrotf.png'
                 titulo='Stock Llantas'
@@ -147,6 +148,18 @@ const Project = () => {
                 iconNames={['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express.js', 'EJS', 'JSON', 'API']}
                 linkRepo='https://github.com/edusebass/TacoTown'
                 linkWeb='https://taco-town.vercel.app/'
+                />
+                <Card 
+                img={apiperson}
+                titulo='API PERSON'
+                fecha='Agosto 2023'
+                descripcion='Aplicacion web creada con REACT obtniendo datos de una api que devuelve infomoracion en la cual se implmenta multiple metodos
+                como filtrar ordenar, buscar y eliminar'
+                icons={[BiLogoHtml5, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, TbBrandVite, BiLogoFirebase]}
+                iconColors={["text-orange-600", "text-sky-500", "text-sky-700", "text-blue-600", "text-yellow-600", "text-yellow-500"]}
+                iconNames={["HTML5", "React", "Tailwind CSS", "TypeScript", "Vite", "Firebase"]}
+                linkRepo='https://github.com/edusebass/React'
+                linkWeb='https://apiperson.vercel.app/'
                 />
             </section>      
         </>
