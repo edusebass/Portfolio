@@ -7,7 +7,7 @@ import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 
 
 const Intro = () => {
-  const [isAnimated, setIsAnimated] = useState(false);
+  // const [isAnimated, setIsAnimated] = useState(false);
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const introText = "Hi, I´m Eduardo Almachi 👋";
@@ -18,7 +18,7 @@ const Intro = () => {
       setIndex(index => index + 1);
     }, 50);
 
-    setIsAnimated(true);
+    // setIsAnimated(true);
 
     return () => clearInterval(intervalId);
   }, [index]);
