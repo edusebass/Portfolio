@@ -75,7 +75,7 @@ const Header = () => {
                                         clipRule="evenodd" />
                                 </svg>
                             </a>
-                        <a href="https://github.com/edusebass" target="blank" className="mx-1 hidden text-sm px-2 py-2 leading-none border rounded-full border-neutral-500 hover:border-transparent hover:text-black hover:bg-white mt-4 sm:mt-0 sm:inline-block sm:ease-in duration-300">
+                        <a href="https://github.com/edusebass" target="blank" className="mx-1 text-sm px-2 py-2 leading-none border rounded-full border-neutral-500 hover:border-transparent hover:text-black hover:bg-white mt-4 sm:mt-0 sm:inline-block sm:ease-in duration-300">
                             <FaGithub className=" text-2xl"/>                        
                         </a>
                         <a href="https://www.linkedin.com/in/eduardo-almachi-727730238/" target="blank" className={`mx-1 text-sm px-2 py-2 leading-none border rounded-full border-neutral-500 hover:border-transparent  hover:text-blue-800 hover:bg-white mt-4 sm:mt-0 hidden sm:inline-block sm:sm:ease-in duration-300`}>

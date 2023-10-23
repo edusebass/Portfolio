@@ -24,7 +24,7 @@ const Intro = () => {
   }, [index]);
 
   return (
-    <div className={`flex px-1 py-5 sm:px-52 sm:py-40 text-white w-full h-full transform transition-transform duration-700 ${isAnimated ? 'translate-x-0 scale-100' : '-translate-x-full scale-50'}`} id='intro'>
+    <div className='`flex px-1 py-5 sm:px-52 sm:py-40 text-white w-full h-screen' id='intro'>
       <div className='sm:flex'>
         <img src={imgPerfil} className='ml-20 max-h-44 sm:my-12 sm:block sm:h-auto sm:max-h-60 rounded-3xl' />
         <div className='px-7 pt-7 sm:px-20'>
