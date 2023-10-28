@@ -9,7 +9,7 @@ import appfarmacia from '../../public/img/appfarmacia.png';
 import tolist from '../../public/img/tolist.png';
 import apiperson from '../../public/img/apiperson.png';
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlus,BiLogoPython, BiLogoJava,
-    BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs, BiSolidFileJson } from 'react-icons/bi';
+    BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs, BiSolidFileJson, BiLogoMongodb, BiDirections } from 'react-icons/bi';
 import { TbBrandVite } from 'react-icons/tb';
 import { SiExpress, SiMysql  } from 'react-icons/si';
 import { AiOutlinePercentage, AiFillApi } from 'react-icons/ai';
@@ -36,6 +36,19 @@ const Project = () => {
                 iconNames={["HTML5", "React", "Tailwind CSS", "TypeScript", "Vite", "Firebase"]}
                 linkRepo='https://github.com/edusebass/llantas'
                 linkWeb='https://llantas.vercel.app/'
+                />
+                <Card
+                img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1698526925/Portfolio/chat_f0exdc.png'
+                titulo='BindevChat'
+                fecha='Octubre 2023'
+                descripcion='Aplicación web Chat realizado con webSockets para interaccion bidireccional sin necesidad de recargar(f5),
+                utilizando una base de datos(MONGODB)'
+                icons={[BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, SiExpress, BiLogoMongodb, BiDirections]}
+                iconColors={['text-orange-600', 'text-blue-500', 'text-yellow-400', 'text-green-500', 'text-black', 'text-green-400',
+                'text-gray-600']}
+                iconNames={['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'WebSockets']}
+                linkRepo='https://github.com/edusebass/APP-REACT-MESSAGES'
+                linkWeb='https://app-react-messages-production.up.railway.app/'
                 />
                 <Card img={imgSimon} titulo='SIMON DICEE WEBSITE' fecha='Julio 2023'
                 descripcion='Videojuego sobre mem<orización interactiva.'
