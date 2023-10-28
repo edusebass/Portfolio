@@ -1,7 +1,9 @@
-import {BiLogoPython, BiLogoCPlusPlus, BiLogoHtml5, BiTerminal, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, BiLogoReact, BiLogoJquery} from "react-icons/bi";
+import {BiLogoPython, BiLogoCPlusPlus, BiLogoHtml5, BiTerminal, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, BiLogoReact, BiLogoJquery,
+    BiSolidFileJson, BiLogoMongodb, BiDirections, BiLogoTypescript} from "react-icons/bi";
 import {FaJava} from "react-icons/fa";
 import {BsGit} from "react-icons/bs";
-import {SiJupyter, SiMysql, SiMicrosoftsqlserver, SiApachecouchdb} from "react-icons/si";
+import {SiJupyter, SiMysql, SiMicrosoftsqlserver, SiApachecouchdb, SiExpress} from "react-icons/si";
+import { AiOutlinePercentage } from "react-icons/ai";
 import '../../public/img/codigo.jpg'
 
 const skills = () => {
@@ -71,6 +73,30 @@ const skills = () => {
                     <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-blue-200">
                         <BiLogoJquery/>
                         <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">JQuery</p>
+                    </div>
+                    <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-green-400">
+                        <BiLogoMongodb/>
+                        <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">MongoDB</p>
+                    </div>
+                    <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-gray-400">
+                        <BiDirections/>
+                        <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">WebSockets</p>
+                    </div>
+                    <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-gray-200">
+                        <BiSolidFileJson/>
+                        <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">APIS</p>
+                    </div>
+                    <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-gray-200">
+                        <SiExpress/>
+                        <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">Express.js</p>
+                    </div>
+                    <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-blue-500">
+                        <BiLogoTypescript/>
+                        <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">TypeScript</p>
+                    </div>
+                    <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-red-600">
+                        <AiOutlinePercentage/>
+                        <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">EJS</p>
                     </div>
                 </div>
             </div>            
