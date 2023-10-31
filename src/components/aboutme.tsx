@@ -1,3 +1,5 @@
+import  Streaks  from './GitHubStreak';
+// import Top from './GitTopLanguajes'; 
 const AboutMe = () =>{
     return(
         <>
@@ -16,6 +18,7 @@ const AboutMe = () =>{
                                 </p>
                             </div>
                         </div>
+                            {/* <Top/> */}
                     </div>
                     <div className="w-full md:w-4/12 px-4 text-center">
                         <div className=" flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
@@ -41,11 +44,11 @@ const AboutMe = () =>{
                                 privilegio de crear software para diversos clientes. <br />
                                 </p>
                             </div>
+                            <Streaks/>
                         </div>
                     </div>
                 </div>       
             </div>
-            
         </>    
     )
 }
