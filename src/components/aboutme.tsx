@@ -1,26 +1,52 @@
 const AboutMe = () =>{
     return(
         <>
-            <section className="flex flex-col px-10 pb-10 pt-6 sm:flex-row sm:px-2" id="aboutme">
-                <div className="flex text-5xl font-bold text-yellow-500 justify-center  sm:p-48 sm:text-6xl sm:font-bold" >
-                    <h2 className="pb-10">About me</h2>
-                </div>
-                <div className="flex md:pt-40 md:px-20">
-                    <p className="text-white">
-                    Actualmente soy estudiante de la ESCUELA POLITECNICA NACIONAL EPN cursando 4 de 6 semestres en la carrera de Desarrollo de Software. <br />
-                    Me encanta la codificación y desarrollo web y aplicaciones de escritorio APP. <br /> <br />
-                    He tenido un avance rápido en aprendizaje hasta el día de hoy, he realizado porjectos y he tenido el privilegio de crear software para diversos clientes. <br />
-                    Mi principal objetivo estos días es crear productos y liderar proyectos para nuestros clientes. <br /> <br />
-                    En mi tiempo libre también me gusta crear videos relacionados con la programación y la docencia. <br />
-                    Cuando no estoy frente al ordenador, salgo a correr y a jugar al fútbol 🙌
-                    </p>
-                </div>
-            </section>
-            
-            
+            <div className="flex h-screen flex-col md:pt-20 md:mt-14 md:px-20 " id="aboutme">
+                <h2 className="flex text-center justify-center pb-10 text-6xl font-extrabold text-yellow-500">About me</h2>
+                <div className="flex flex-wrap">
+                    <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                            <div className="px-4 py-5 flex-auto">
+                                <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-black"> 
+                                </div>
+                                <h6 className="text-xl font-semibold">Estudios</h6>
+                                <p className="mt-2 mb-4 text-blueGray-500">
+                                Actualmente soy estudiante de la ESCUELA POLITECNICA NACIONAL (EPN) cursando 4 de 6 semestres en la carrera de 
+                                <span className="italic font-bold"> Desarrollo de Software</span>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full md:w-4/12 px-4 text-center">
+                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                            <div className="px-4 py-5 flex-auto">
+                                <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400">
+                                </div>
+                                <h6 className="text-xl font-semibold">¿Por qué programo?</h6>
+                                <p className="mt-2 mb-4 text-blueGray-500">
+                                Me encanta la codificación y desarrollo web y aplicaciones de escritorio APP. <br /> <br />
+                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                            <div className="px-4 py-5 flex-auto">
+                                <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-indigo-950">    
+                                </div>
+                                <h6 className="text-xl font-semibold">¿Experiencia?</h6>
+                                <p className="mt-2 mb-4 text-blueGray-500">
+                                !Claro que sí¡ <br />He tenido un avance rápido en aprendizaje hasta el día de hoy, he realizado projectos y he tenido el 
+                                privilegio de crear software para diversos clientes. <br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </div>
         </>    
     )
-    
 }
 
 export default AboutMe;

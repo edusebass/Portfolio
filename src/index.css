@@ -20,7 +20,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+#aboutme {
+/* Agrega tu ruta correcta a la imagen de fondo */
+background-image: url('https://static.vecteezy.com/system/resources/previews/006/662/446/non_2x/the-hand-of-a-person-using-a-notebook-or-laptop-a-blank-screen-white-dark-background-blacklight-shines-down-on-the-hand-mystery-operation-or-hacker-3d-rendering-free-photo.jpg');
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 
 
 
