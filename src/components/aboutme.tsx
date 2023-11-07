@@ -1,10 +1,12 @@
-import  Streaks  from './GitHubStreak';
+// import  Streaks  from './GitHubStreak';
+
 // import Top from './GitTopLanguajes'; 
 const AboutMe = () =>{
     return(
         <>
-            <div className="flex h-full flex-col mt-8 pt-5 sm:h-screen md:pt-20 md:mt-14 md:px-20 " id="aboutme">
+            <div className="flex h-full flex-col mt-8 pt-5 sm:h-screen md:pt-20 md:mt-24 md:px-20 " id="aboutme">
                 <h2 className="flex text-center justify-center pb-10 text-6xl font-extrabold text-yellow-500">Sobre mí</h2>
+                <h6></h6>
                 <div className="flex flex-wrap">
                     <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                         <div className=" flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
@@ -13,7 +15,7 @@ const AboutMe = () =>{
                                 </div>
                                 <h6 className="text-xl font-semibold">Estudios</h6>
                                 <p className="mt-2 mb-4 text-blueGray-500">
-                                Actualmente soy estudiante de la ESCUELA POLITECNICA NACIONAL (EPN) cursando 4 de 6 semestres en la carrera de 
+                                Actualmente soy estudiante de la ESCUELA POLITECNICA NACIONAL (EPN) cursando 5 de 6 semestres en la carrera de 
                                 <span className="italic font-bold"> Desarrollo de Software</span>.
                                 </p>
                             </div>
@@ -44,10 +46,10 @@ const AboutMe = () =>{
                                 privilegio de crear software para diversos clientes. <br />
                                 </p>
                             </div>
-                            <Streaks/>
                         </div>
                     </div>
                 </div>       
+                            {/* <Streaks/> */}
             </div>
         </>    
     )
