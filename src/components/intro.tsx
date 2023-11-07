@@ -29,8 +29,8 @@ const Intro = () => {
         <div className='px-7 pt-7 sm:px-20'>
           <span className="font-mono whitespace-no-wrap border-r-4 border-solid ">{text}</span>
           <h2 className='text-5xl font-extrabold text-yellow-400 sm:text-7xl'>Software Developer</h2>
-          <p className='py-2 text-slate-400 pb-4'>Entusiasta de la tecnología dedicado con una curiosidad insaciable por desentrañar las complejidades de nuestro mundo digital.</p>
-          <Button icon={<BiDownload/>} href={CV} descripButton='Download CV'></Button>
+          <p className='py-2 text-white pb-4'>Entusiasta de la tecnología dedicado con una curiosidad insaciable por desentrañar las complejidades de nuestro mundo digital.</p>
+          <Button icon={<BiDownload/>} href={CV} classname="" descripButton='Visualizar CV'></Button>
           <div className='pt-5 text-white flex flex-row sm:hidden' id="informacion">
             <a
               href="https://mail.google.com/mail/?view=cm&to=edu03sebas@gmail.com"
