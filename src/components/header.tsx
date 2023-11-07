@@ -55,6 +55,7 @@ const Header = () => {
                     <div className=" fixed top-20 left-0 w-full bg-slate-950 p-4 z-50 flex flex-col items-center justify-center">
                         <a href="#intro" className="text-white text-lg mb-4 hover:underline uppercase">Inicio</a>
                         <a href="#skills" className="text-white text-lg mb-4 hover:underline uppercase">Habilidades</a>
+                        <a href="#experiencia" className="text-white text-lg mb-4 hover:underline uppercase">Experiencia</a>
                         <a href="#projects" className="text-white text-lg mb-4 hover:underline uppercase">Proyectos</a>
                         <a href="#aboutme" className="text-white text-lg mb-4 hover:underline uppercase">Sobre mi</a>
                         <a href="#footer" className="text-white text-lg hover:underline uppercase">Contacto</a>
@@ -73,6 +74,9 @@ const Header = () => {
                     </a>
                     <a href="#skills" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
                         Habilidades
+                    </a>
+                    <a href="#experiencia" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                        Experiencia
                     </a>
                     <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
                         Proyectos
