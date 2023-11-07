@@ -1,83 +1,8 @@
-
-
 import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 
 const footer = () => {
   return (
-      <>
-        {/* <div className="flex items-center justify-center p-12">
-          <h2 className="flex text-center justify-center pb-10 text-6xl font-extrabold text-yellow-500">Contáctame</h2>
-          <div className="mx-auto w-full max-w-[550px]">
-            <form  method="POST">
-              <div className="mb-5">
-                <label
-                  
-                  className="mb-3 block text-base font-medium text-white"
-                >
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Ingrese su nombre"
-                  className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                />
-              </div>
-              <div className="mb-5">
-                <label
-                  
-                  className="mb-3 block text-base font-medium text-white"
-                >
-                  Email 
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="example@hotmail.com"
-                  className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                />
-              </div>
-              <div className="mb-5">
-                <label
-                
-                  className="mb-3 block text-base font-medium text-white"
-                >
-                  Asunto
-                </label>
-                <input
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  placeholder="Ingresa el asunto"
-                  className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                />
-              </div>
-              <div className="mb-5">
-                <label
-                  
-                  className="mb-3 block text-base font-medium text-white"
-                >
-                  Mensaje
-                </label>
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Escribe tu mensaje..."
-                  className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                ></textarea>
-              </div>
-              <div>
-                <button
-                  className="hover:shadow-form rounded-md bg-yellow-500 py-3 px-8 text-base font-semibold text-white outline-none"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div> */}
+    <>
       <footer className=" bg-black text-center text-white pt-9 flex flex-col sm:flex-row" id="footer">
         <span className="font-semibold tracking-tight text-4xl sm:ml-24 sm:mt-14">EA</span>
         <div className="px-6 pt-6 sm:ml-16 mx-auto">

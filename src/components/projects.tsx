@@ -13,9 +13,7 @@ import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlu
 import { TbBrandVite } from 'react-icons/tb';
 import { SiExpress, SiMysql  } from 'react-icons/si';
 import { AiOutlinePercentage, AiFillApi } from 'react-icons/ai';
-
 import Card from './Card';
-
 
 const Project = () => {
     const icons1 = [BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery];

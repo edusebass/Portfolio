@@ -1,12 +1,11 @@
 // import  Streaks  from './GitHubStreak';
-
 // import Top from './GitTopLanguajes'; 
+
 const AboutMe = () =>{
     return(
         <>
             <div className="flex h-full flex-col mt-8 pt-5 sm:h-screen md:pt-20 md:mt-24 md:px-20 " id="aboutme">
                 <h2 className="flex text-center justify-center pb-10 text-6xl font-extrabold text-yellow-500">Sobre mí</h2>
-                <h6></h6>
                 <div className="flex flex-wrap">
                     <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                         <div className=" flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
@@ -20,7 +19,6 @@ const AboutMe = () =>{
                                 </p>
                             </div>
                         </div>
-                            {/* <Top/> */}
                     </div>
                     <div className="w-full md:w-4/12 px-4 text-center">
                         <div className=" flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
@@ -30,7 +28,6 @@ const AboutMe = () =>{
                                 <h6 className="text-xl font-semibold">¿Por qué programo?</h6>
                                 <p className="mt-2 mb-4 text-blueGray-500">
                                 Me encanta la codificación y desarrollo web y aplicaciones de escritorio APP. <br /> <br />
-                                
                                 </p>
                             </div>
                         </div>
@@ -48,8 +45,7 @@ const AboutMe = () =>{
                             </div>
                         </div>
                     </div>
-                </div>       
-                            {/* <Streaks/> */}
+                </div>
             </div>
         </>    
     )
