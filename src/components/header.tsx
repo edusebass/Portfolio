@@ -27,17 +27,46 @@ const Header = () => {
         setIsNavOpen(!isNavOpen);
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            // Verificar la posición de desplazamiento para decidir si el menú debe estar abierto o cerrado
+            if (window.scrollY > 100) {
+            setIsNavOpen(false); // Cierra el menú si el usuario ha desplazado más de 100 píxeles
+            }
+        };
+
+        // Agregar un event listener para el evento de desplazamiento
+        window.addEventListener("scroll", handleScroll);
+
+        // Limpia el event listener cuando el componente se desmonta
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
         <nav className={`flex justify-between flex-wrap shadow-2xl p-3 text-white sm:fixed sm:p-4 sm:w-full ${scrolling ? "  bg-slate-950  text-black transition delay-150 duration-300 ease-in-out" : ""}`}>
-            <div className="flex items-center flex-shrink-0 text- mr-6">
+            <div className="fixed top-0 left-0 w-full bg-slate-950 p-4 z-50 flex items-center justify-between sm:hidden">
+                <span className="font-semibold tracking-tight text-4xl text-white">EA</span>
+                <button className="flex px-6 py-4 border rounded text-white border-white" onClick={toggleNav}>
+                    <svg className="fill-current h-4 w-3">{isNavOpen ? <AiOutlineClose /> : <AiOutlineMenu />}</svg>
+                </button>
+                {isNavOpen && (
+                    <div className=" fixed top-20 left-0 w-full bg-slate-950 p-4 z-50 flex flex-col items-center justify-center">
+                        <a href="#intro" className="text-white text-lg mb-4 hover:underline uppercase">Inicio</a>
+                        <a href="#skills" className="text-white text-lg mb-4 hover:underline uppercase">Habilidades</a>
+                        <a href="#projects" className="text-white text-lg mb-4 hover:underline uppercase">Proyectos</a>
+                        <a href="#aboutme" className="text-white text-lg mb-4 hover:underline uppercase">Sobre mi</a>
+                        <a href="#footer" className="text-white text-lg hover:underline uppercase">Contacto</a>
+                    </div>
+                )}
+            </div>
+
+            {/* COMPUTADORAS */}
+            <div className="hidden items-center flex-shrink-0 text- mr-6 sm:flex">
                 <span className="font-semibold tracking-tight pl-10 text-4xl">EA</span>
             </div>
-            <div className="block sm:hidden">
-                <button className="flex items-center px-6 py-4 border rounded border-black hover:text-white hover:border-white" onClick={toggleNav}>
-                    <svg className="fill-current h-3 w-3" > {isNavOpen ? <AiOutlineClose /> : <AiOutlineMenu />}</svg>
-                </button>
-            </div>
-            <div className={`w-full flex-grow justify-between sm:flex sm:items-center sm:w-auto ${isNavOpen ? "block" : "hidden"}`}>
+            <div className={`hidden sm:flex-grow sm:flex sm:items-center sm:w-auto`}>
                 <div className="text-sm sm:flex-grow">
                     <a href="#intro" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case" >
                         Inicio
@@ -73,7 +102,7 @@ const Header = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </a>
-                    <a href="https://github.com/edusebass" target="blank" className="mx-1 text-sm px-2 py-2 leading-none border rounded-full border-neutral-500 hover:border-transparent hover:text-black hover:bg-white mt-4 sm:mt-0 sm:inline-block sm:ease-in duration-300">
+                    <a href="https://github.com/edusebass" target="blank" className="mx-1 hidden text-sm px-2 py-2 leading-none border rounded-full border-neutral-500 hover:border-transparent hover:text-black hover:bg-white mt-4 sm:mt-0 sm:inline-block sm:ease-in duration-300">
                         <FaGithub className=" text-2xl"/>                        
                     </a>
                     <a href="https://www.linkedin.com/in/eduardo-almachi-727730238/" target="blank" className={`mx-1 text-sm px-2 py-2 leading-none border rounded-full border-neutral-500 hover:border-transparent  hover:text-blue-800 hover:bg-white mt-4 sm:mt-0 hidden sm:inline-block sm:sm:ease-in duration-300`}>
