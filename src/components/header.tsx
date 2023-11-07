@@ -30,7 +30,7 @@ const Header = () => {
     };
 
     return (
-            <nav className={`flex justify-between flex-wrap shadow-lg p-3 text-white sm:fixed sm:p-4 sm:w-full ${scrolling ? "  bg-slate-950  text-black transition delay-150 duration-300 ease-in-out" : ""}`}>
+            <nav className={`flex justify-between flex-wrap shadow-2xl p-3 text-white sm:fixed sm:p-4 sm:w-full ${scrolling ? "  bg-slate-950  text-black transition delay-150 duration-300 ease-in-out" : ""}`}>
                 <div className="flex items-center flex-shrink-0 text- mr-6">
                     <span className="font-semibold tracking-tight pl-10 text-4xl">EA</span>
                 </div>
