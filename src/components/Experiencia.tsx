@@ -11,7 +11,7 @@ const Experiencia = () => {
                             <img src="https://res.cloudinary.com/dwowtb0ya/image/upload/v1699380013/Portfolio/computer-svgrepo-com_qmbbtn.svg"
                             className="h-20 m-auto" />
                             <h3 className=" text-3xl font-semibold">Tecniservicios</h3>
-                            <h3 className=" text-xl font-semibold">De Marzo 2021 - Mayo 2022</h3>
+                            <h3 className=" text-xl font-semibold">De Febrero 2022 - Mayo 2022</h3>
                             <h3 className=" text-lg">Cargo ocupado: Tecnico informático</h3>
                             <p className="text-left mt-2">
                                 <ol>
