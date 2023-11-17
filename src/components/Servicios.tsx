@@ -1,52 +1,62 @@
-"use client"
-import { useEffect, useState} from 'react'
+
+// import { useEffect, useState} from 'react'
 import AnimatedDiv from './AnimatedDiv'
-import AnimatedText from "./AnimatedText";
+// import AnimatedText from "./AnimatedText";
 
 const ServiciosLook = () => {
-    const [scrollPosition, setScrollPosition] = useState(0);
-  const [moverHeight, setMoverHeight] = useState(0);
-  const [containerHeight, setContainerHeight] = useState(0);
+//     const [scrollPosition, setScrollPosition] = useState(0);
+//   const [moverHeight, setMoverHeight] = useState(0);
+//   const [containerHeight, setContainerHeight] = useState(0);
 
-  const handleScroll = () => {
-    const newPosition = window.scrollY;
-    const bottomMover = newPosition + moverHeight;
-    const bottomContainer = containerHeight;
+//   const handleScroll = () => {
+//     const newPosition = window.scrollY;
+//     const bottomMover = newPosition + moverHeight;
+//     const bottomContainer = containerHeight;
 
-    if (bottomMover <= bottomContainer) {
-      setScrollPosition(newPosition);
-    } else {
-      setScrollPosition(bottomContainer - moverHeight);
-    }
-  };
+//     if (bottomMover <= bottomContainer) {
+//       setScrollPosition(newPosition);
+//     } else {
+//       setScrollPosition(bottomContainer - moverHeight);
+//     }
+//   };
 
-  useEffect(() => {
-    const moverElement = document.getElementById('mover');
-    const containerElement = document.getElementById('container');
+//   useEffect(() => {
+//     const moverElement = document.getElementById('mover');
+//     const containerElement = document.getElementById('container');
 
-    if (moverElement) {
-      setMoverHeight(moverElement.clientHeight);
-    }
+//     const updateHeights = () => {
+//       if (moverElement) {
+//         setMoverHeight(moverElement.clientHeight);
+//       }
 
-    if (containerElement) {
-      setContainerHeight(containerElement.clientHeight);
-    }
+//       if (containerElement) {
+//         setContainerHeight(containerElement.clientHeight);
+//       }
+//     };
 
-    window.addEventListener('scroll', handleScroll);
+//     // Actualizar alturas al montar el componente
+//     updateHeights();
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [moverHeight, containerHeight]);
+//     // Establecer el listener para el evento de desplazamiento
+//     window.addEventListener('scroll', handleScroll);
 
-  // Ajusta el cálculo para que el div se mueva hacia abajo
-  const translateY = `translateY(${scrollPosition}px)`;
-  console.log(`translateY: ${translateY}`);
+//     // Actualizar alturas al redimensionar la ventana
+//     window.addEventListener('resize', updateHeights);
 
+//     // Limpiar listeners al desmontar el componente
+//     return () => {
+//       window.removeEventListener('scroll', handleScroll);
+//       window.removeEventListener('resize', updateHeights);
+//     };
+//   }, [moverHeight, containerHeight]);
+
+//   const translateY = `translateY(${scrollPosition}px)`;
+//   console.log(`translateY: ${translateY}`);
+  
     return (
         <>
         <div className=" flex flex-col sm:flex-row ">
-            <div className="px-10"
+            {/* <div className="px-10"
                 style={{
                    position:'relative',
                    top: `${scrollPosition}px`,
@@ -67,7 +77,7 @@ const ServiciosLook = () => {
                     fromTop
                     />
                 </div>
-            </div>
+            </div> */}
                 <div className='sm:grid sm:grid-cols-3 sm:gap-5 sm:w-full'>
                     {/* servicio */}
                     <AnimatedDiv delay={0.5} y={50}>
