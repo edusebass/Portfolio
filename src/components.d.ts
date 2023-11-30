@@ -16,3 +16,7 @@ interface ButtonProps {
     icon: ReactElement;
     classname?: string;
 }
+
+interface ProgressBar {
+    percent: number
+}
