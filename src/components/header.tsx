@@ -57,6 +57,8 @@ const Header = () => {
                         <a href="#skills" className="text-white text-lg mb-4 hover:underline uppercase">Habilidades</a>
                         <a href="#experiencia" className="text-white text-lg mb-4 hover:underline uppercase">Experiencia</a>
                         <a href="#projects" className="text-white text-lg mb-4 hover:underline uppercase">Proyectos</a>
+                        <a href="#servicios" className="text-white text-lg mb-4 hover:underline uppercase">Servicios</a>
+                        <a href="#eduacion" className="text-white text-lg mb-4 hover:underline uppercase">Educación</a>
                         <a href="#aboutme" className="text-white text-lg mb-4 hover:underline uppercase">Sobre mi</a>
                         <a href="#footer" className="text-white text-lg hover:underline uppercase">Contacto</a>
                     </div>
@@ -69,22 +71,28 @@ const Header = () => {
             </div>
             <div className={`hidden sm:flex-grow sm:flex sm:items-center sm:w-auto`}>
                 <div className="text-sm sm:flex-grow">
-                    <a href="#intro" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case" >
+                    <a href="#intro" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case" >
                         Inicio
                     </a>
-                    <a href="#skills" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                    <a href="#skills" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Habilidades
                     </a>
-                    <a href="#experiencia" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                    <a href="#experiencia" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Experiencia
                     </a>
-                    <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                    <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Proyectos
                     </a>
-                    <a href="#aboutme" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                    <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                        Educación
+                    </a>
+                    <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                        Servicios
+                    </a>
+                    <a href="#aboutme" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Sobre mi
                     </a>
-                    <a href="#footer" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-14 uppercase sm:normal-case">
+                    <a href="#footer" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Contacto
                     </a>
                 </div>
