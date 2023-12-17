@@ -14,6 +14,7 @@ import { TbBrandVite } from 'react-icons/tb';
 import { SiExpress, SiMysql  } from 'react-icons/si';
 import { AiOutlinePercentage, AiFillApi } from 'react-icons/ai';
 import Card from './Card';
+import AnimatedText from './AnimatedText'
 
 const Project = () => {
     const icons1 = [BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery];
@@ -22,9 +23,19 @@ const Project = () => {
 
     return (
         <>
-            <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-28 " id='projects'>PROYECTOS</h2>
-            <h6 className='text-yellow-400 font-extrabold text-center pb-8 mx-10 sm:mx-0'>Listado de proyectos en los que he trabajado</h6>
-            <section className="sm:justify-center flex flex-wrap ">
+            <AnimatedText 
+                text='PROYECTOS'
+                className='text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-28'
+                fromTop
+                stylesWords="hover:text-white"
+            />
+             <AnimatedText 
+                text='Listado de proyectos en los que he trabajado'
+                className='text-yellow-400 font-extrabold text-center pb-8 mx-10 sm:mx-0'
+                fromTop
+                stylesWords="hover:text-white"
+            />
+            <section className="sm:justify-evenly flex flex-wrap ">
                 <Card 
                 img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1697491307/Portfolio/llantas_isrotf.png'
                 titulo='Stock Llantas'
@@ -40,7 +51,7 @@ const Project = () => {
                 img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1698526925/Portfolio/chat_f0exdc.png'
                 titulo='BindevChat'
                 fecha='Octubre 2023'
-                descripcion='Aplicación web Chat realizado con webSockets para interaccion bidireccional sin necesidad de recargar(f5),
+                descripcion='Aplicación web Chat realizado con webSockets
                 utilizando una base de datos(MONGODB)'
                 icons={[BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoNodejs, SiExpress, BiLogoMongodb, BiDirections]}
                 iconColors={['text-orange-600', 'text-blue-500', 'text-yellow-400', 'text-green-500', 'text-black', 'text-green-400',
@@ -58,7 +69,7 @@ const Project = () => {
                 linkWeb='https://edusebass.github.io/SIMONDICEE-WEBSITE/'
                 />
                 <Card img={imgDicee} titulo='Dados Game WEBSITE' fecha='Julio 2023'
-                descripcion='Sitio web de juegos que permite a los usuarios participar en un juego de dados online. El objetivo del juego es conseguir el mayor número posible.'
+                descripcion='Juego que permite lanza dados al azar.'
                 icons={icons1}
                 iconColors={iconColors}
                 iconNames={iconNames}
@@ -66,7 +77,7 @@ const Project = () => {
                 linkWeb='https://edusebass.github.io/DICEE-website/'
                 />
                 <Card img={projectc} titulo='APP Control de Inventario' fecha='Marzo 2023'
-                descripcion='Proyecto realizado con C++ su función es el control de inventarios de productos, y CRUD de administradores y clientes. Los datos seguardan en archivos(.txt).'
+                descripcion='Programa para control de inventarios de productos, y CRUD de administradores y clientes.'
                 icons={[BiLogoCPlusPlus]}
                 iconColors={["text-blue-600"]}
                 iconNames={["C++"]}
@@ -103,7 +114,7 @@ const Project = () => {
                 linkRepo='https://github.com/edusebass/javaxCalculadora'
                 />
                 <Card img={appfarmacia} titulo='App Gestion Farmacia' fecha='Septiembre 2023'
-                descripcion='App realizada con java que consiste en gestionar productos y ralizar las ventas por caja, y administrar el stock de productos y personas.
+                descripcion='App que gestiona productos, ventas por caja y administracion el stock de productos y personas.
                 Gestiona ventas y devuelve facturas de las compras y reportes.'
                 icons={[BiLogoJava, SiMysql]}
                 iconColors={["text-orange-600", 'text-sky-700']}

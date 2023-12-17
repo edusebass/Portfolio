@@ -1,6 +1,8 @@
 import Button from "./button";
 import { MdOutlinePageview } from 'react-icons/md';
 import { BiLogoGithub } from 'react-icons/bi';
+import AnimatedDiv from './AnimatedDiv'
+
 
 const Card: React.FC<Card> = ({ 
     img,
@@ -16,6 +18,8 @@ const Card: React.FC<Card> = ({
     
     return (
         <> 
+        <AnimatedDiv delay={0.2} y={50} x={25}>
+
             <div className="rounded-3xl bg-white max-h-min m-3 overflow-hidden shadow-lg sm:max-h-full sm:max-w-xs">
                 <img className="w-full" src={img} alt="Sunset in the mountains"/>
                 <div className="px-6 py-4">
@@ -23,19 +27,20 @@ const Card: React.FC<Card> = ({
                     <div className="font-medium mb-2">{fecha}</div>
                     <p className="text-gray-700 text-base">{descripcion}</p>
                 </div>
-                <div className="flex flex-wrap justify-center px-6 pt-4 pb-2">
+                <div className=" px-6  flex flex-wrap justify-around">
                     {icons.map((IconComponent, index) => (
                         <div key={index} className="text-center">
-                            <IconComponent size={50} className={`${iconColors[index]} mx-5`} />
+                            <IconComponent size={50} className={`${iconColors[index]} mx-3`} />
                             <div>{iconNames[index]}</div>
                         </div>
                     ))}
                 </div>
-                <div className=" flex flex-row justify-center mx-2 mt-5 mb-3">
+                <div className="flex flex-row justify-center mx-2 mt-5 mb-3">
                     <Button href={linkRepo} icon={<BiLogoGithub/>} descripButton="Repo"/>
                     <Button href={linkWeb} icon={<MdOutlinePageview/>} descripButton="WebSite"/>
                 </div>
             </div>
+        </AnimatedDiv>
         </>
     )
 }
