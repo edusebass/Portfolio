@@ -17,7 +17,7 @@ const ExperienciaCard = ({lugar, fecha, cargo, opcion1, opcion2, opcion3, opcion
         <>
         <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center ">
             
-            <AnimatedDiv x={0.5} y={50}>
+            <AnimatedDiv x={0.1} y={50}>
                 
             <div className=" flex min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg ">    
                 <div className="px-4 py-5 flex-auto">

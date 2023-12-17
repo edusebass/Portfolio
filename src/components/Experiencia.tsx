@@ -1,10 +1,22 @@
 import ExperienciaCard from './ExperienciaCard'
+import AnimatedText from './AnimatedText'
+
 const Experiencia = () => {
     return (
         <> 
-            <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-28 " id='experiencia'>EXPERIENCIA LABORAL</h2>
-            <h6 className='text-yellow-400 font-extrabold text-center pb-8 mx-10 sm:mx-0'>Lista de experiencia profesional y descripcion
-            detallada de cada uno de ellos</h6>
+            <AnimatedText 
+                text='EXPERIENCIA LABORAL'
+                className='text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-28'
+                fromTop
+                stylesWords="hover:text-white"
+            />
+            <AnimatedText 
+                text='Lista de experiencia profesional y descripcion
+                detallada de cada uno de ellos'
+                className='text-yellow-400 font-extrabold text-center pb-8 mx-10 sm:mx-0'
+                fromTop
+                stylesWords="hover:text-white"
+            />
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center">
                 
                     <ExperienciaCard 
