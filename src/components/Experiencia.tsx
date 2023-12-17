@@ -1,13 +1,15 @@
 import ExperienciaCard from './ExperienciaCard'
 import AnimatedText from './AnimatedText'
 
+
+
 const Experiencia = () => {
     return (
         <> 
             <AnimatedText 
                 text='EXPERIENCIA LABORAL'
                 className='text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-28'
-                fromTop
+                
                 stylesWords="hover:text-white"
             />
             <AnimatedText 
@@ -18,7 +20,6 @@ const Experiencia = () => {
                 stylesWords="hover:text-white"
             />
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center">
-                
                     <ExperienciaCard 
                         cargo='Tecnico informático'
                         fecha='De Agosto 2022 - Octubre 2022'

@@ -1,11 +1,18 @@
 // import  Streaks  from './GitHubStreak';
 // import Top from './GitTopLanguajes'; 
+import AnimatedText from "./AnimatedText";
+
 
 const AboutMe = () =>{
     return(
         <>
             <div className="flex h-full flex-col mt-8 pt-5 md:pt-20 md:mt-24 md:px-20 " id="aboutme">
-                <h2 className="flex text-center justify-center pb-10 text-6xl font-extrabold text-yellow-500">Sobre mí</h2>
+                    <AnimatedText
+                        text="Sobre mí"
+                        className="flex text-center justify-center pb-10 text-6xl font-extrabold text-yellow-500"
+                        stylesWords="hover:text-white"
+                        fromTop
+                    />
                 <div className="flex flex-wrap">
                     <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                         <div className=" flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
