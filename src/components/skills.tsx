@@ -6,13 +6,19 @@ import {SiJupyter, SiMysql, SiMicrosoftsqlserver, SiApachecouchdb, SiExpress} fr
 import { AiOutlinePercentage } from "react-icons/ai";
 import '../../public/img/codigo.jpg'
 import  ProgressBar from './ProgressBar';
+import AnimatedText from './AnimatedText'
 
 const skills = () => {
     return (
         <>
             <div className="flex justify-center p-3" id=""> 
                 <div className="text-white text-6xl sm:text-8xl">
-                    <h2 className="text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-16 my-3 ">Habilidades && Herramientas</h2>
+                    <AnimatedText 
+                        text='Habilidades && Herramientas'
+                        className='text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-16 my-3'
+                        fromTop
+                        stylesWords="hover:text-white"
+                    />
                     <div className="flex flex-wrap grow justify-center p-0 sm:h-screen sm:p-10 ">
                         <div className=" text-blue-300 transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3">
                             <BiLogoPython/>
