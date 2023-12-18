@@ -5,7 +5,7 @@ import imgPerfil from '../../public/img/fotocarnet.jpg';
 import CV from '../../public/docs/EduardoAlmachiCV.pdf';
 import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 import AnimatedText from "./AnimatedText";
-import AnimatedDiv from './AnimatedDiv'
+// import AnimatedDiv from './AnimatedDiv'
 
 
 

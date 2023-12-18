@@ -22,7 +22,9 @@ const ServiciosLook = () => {
                                     <span className="bg-yellow-500 h-1 block h-23"></span>
                                 </div>
                                 <p className="mt-2">
-                                Una landing page es una página de destino con la finalidad de captar la tención del visitante y persuadirlo, para que realice una determinad acción como la descarga de un archivo, llenar un formulario, seguir la página o realizar la compra, entre otras acciones.
+                                Una landing page tiene la finalidad de captar la atención del visitante y persuadirlo, 
+                                contiene acciones como llenar un formulario, 
+                                seguir la página o realizar la compra, entre otras acciones.
                                 </p>
                             </div>
                         </div>
@@ -56,7 +58,10 @@ const ServiciosLook = () => {
                                     <span className="bg-yellow-500 h-1 block h-23"></span>
                                 </div>
                                 <p className="mt-2">
-                                Un sistema de gestión de contenido o en sus siglas en ingles CMS, permite crear, organizar, publicar y eliminar contenidos dinámicos de una aplicación web, donde el usuario no tiene que preocuparse por la parte técnica sino en alimentar una base de datos de forma sencilla y rápida, con el contenido que quiere publicar.
+                                Un CMS, permite crear, 
+                                organizar, publicar y eliminar contenidos dinámicos de una aplicación web, 
+                                donde el usuario de forma sencilla 
+                                y rápida de dar datos con el contenido que quiere publicar.
                                 </p>
                             </div>
                         </div>
@@ -73,7 +78,9 @@ const ServiciosLook = () => {
                                     <span className="bg-yellow-500 h-1 block h-23"></span>
                                 </div>
                                 <p className="mt-2">
-                                Una aplicación web es una aplicación de software que puede utilizar accediendo a un servidor web a través de internet o intranet mediante un navegador.
+                                Una aplicación web es una aplicación de software que puede utilizar accediendo 
+                                a un servidor web a través de internet. Esta mismo puede abrir las puertas
+                                al mundo digital.
                                 </p>
                             </div>
                         </div>
