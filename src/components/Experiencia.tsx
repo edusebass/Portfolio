@@ -13,8 +13,7 @@ const Experiencia = () => {
                 stylesWords="hover:text-white"
             />
             <AnimatedText 
-                text='Lista de experiencia profesional y descripcion
-                detallada de cada uno de ellos'
+                text='Lista de experiencia profesional y descripcion detallada de cada uno de ellos'
                 className='text-yellow-400 font-extrabold text-center pb-8 mx-10 sm:mx-0'
                 fromTop
                 stylesWords="hover:text-white"

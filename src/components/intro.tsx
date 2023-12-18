@@ -28,7 +28,7 @@ const Intro = () => {
 
   return (
     <>
-    <AnimatedDiv>
+  
 
 
     <div className='`flex mt-20 px-1 py-5 sm:mt-0 sm:px-52 sm:py-40 text-white w-full h-screen' id='intro'>
@@ -75,7 +75,7 @@ const Intro = () => {
         </div>
       </div>
     </div>
-    </AnimatedDiv>
+    
     </>
   );
 };
