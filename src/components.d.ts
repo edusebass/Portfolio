@@ -20,3 +20,10 @@ interface ButtonProps {
 interface ProgressBar {
     percent: number
 }
+
+interface SkillComp {
+    color: string
+    icon: IconType
+    porcentaje: number
+    nombreSkill: string
+}

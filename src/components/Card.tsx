@@ -27,11 +27,11 @@ const Card: React.FC<Card> = ({
                     <div className="font-medium mb-2">{fecha}</div>
                     <p className="text-gray-700 text-base">{descripcion}</p>
                 </div>
-                <div className=" px-6  flex flex-wrap justify-around">
+                <div className=" px-3 flex flex-wrap justify-around">
                     {icons.map((IconComponent, index) => (
                         <div key={index} className="text-center">
                             <IconComponent size={50} className={`${iconColors[index]} mx-3`} />
-                            <div>{iconNames[index]}</div>
+                            <div className="text-xs">{iconNames[index]}</div>
                         </div>
                     ))}
                 </div>

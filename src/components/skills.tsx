@@ -7,6 +7,7 @@ import { AiOutlinePercentage } from "react-icons/ai";
 import '../../public/img/codigo.jpg'
 import  ProgressBar from './ProgressBar';
 import AnimatedText from './AnimatedText'
+import SkillComponent from './SkillComponent';
 
 const skills = () => {
     return (
@@ -20,11 +21,12 @@ const skills = () => {
                         stylesWords="hover:text-white"
                     />
                     <div className="flex flex-wrap grow justify-center p-0 sm:h-screen sm:p-10 ">
-                        <div className=" text-blue-300 transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3">
-                            <BiLogoPython/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">Python</p>
-                            <ProgressBar percent={50} />
-                        </div>
+                        <SkillComponent
+                            icon={<BiLogoPython/>}
+                            color="text-blue-300"
+                            porcentaje={30}
+                            nombreSkill="Python"
+                        />
                         <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-sky-700">
                             <BiLogoCPlusPlus/>
                             <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">C++</p>        
