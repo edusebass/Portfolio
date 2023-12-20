@@ -184,6 +184,18 @@ const Project = () => {
                 linkRepo='https://github.com/edusebass/React'
                 linkWeb='https://apiperson.vercel.app/'
                 />
+
+                <Card 
+                    img="https://res.cloudinary.com/dwowtb0ya/image/upload/v1703091914/Portfolio/ofglqaafue7g8fg4riix.png"
+                    titulo='RenderUsers'
+                    fecha='Diciembre 2023'
+                    descripcion='Aplicacion web realizada con Backend en el cual cada usuario podra loguearse y subir sus portafolios'
+                    icons={[BiLogoHtml5, BiLogoTailwindCss, BiLogoJavascript, TbBrandVite, BiLogoFirebase]}
+                    iconColors={["text-orange-600", "text-sky-500", "text-yellow-400", "text-blue-600", "text-yellow-600", "text-yellow-500"]}
+                    iconNames={["HTML5", "TailwindCss", "JavaScript","Vite", "Firebase"]}
+                    linkRepo='https://github.com/edusebass/BackendU/tree/renderP'
+                    linkWeb='https://renderusers.onrender.com/'
+                />
             </section>      
         </>
     )
