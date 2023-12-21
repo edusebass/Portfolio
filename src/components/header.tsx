@@ -4,7 +4,6 @@ import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
-
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [scrolling, setScrolling] = useState(false);
 
@@ -29,16 +28,13 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            // Verificar la posición de desplazamiento para decidir si el menú debe estar abierto o cerrado
             if (window.scrollY > 100) {
-            setIsNavOpen(false); // Cierra el menú si el usuario ha desplazado más de 100 píxeles
+            setIsNavOpen(false); 
             }
         };
 
-        // Agregar un event listener para el evento de desplazamiento
         window.addEventListener("scroll", handleScroll);
 
-        // Limpia el event listener cuando el componente se desmonta
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
@@ -92,7 +88,7 @@ const Header = () => {
                     <a href="#aboutme" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Sobre mi
                     </a>
-                    <a href="#footer" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a href="/contactForm" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Contacto
                     </a>
                 </div>
