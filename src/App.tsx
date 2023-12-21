@@ -4,9 +4,6 @@ import LandingPage from './pages/LandingPage';
 import ContactPage from './pages/ContactPage';
 
 function App() {
-  useEffect(() => {
-    // Puedes realizar lógica adicional aquí si es necesario
-  }, []);
 
   return (
     <Router>

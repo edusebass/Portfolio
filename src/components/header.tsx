@@ -2,10 +2,13 @@ import {useEffect } from "react";
 import {useState} from "react";
 import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [scrolling, setScrolling] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
 
     const handleScroll = () => {
         if(window.scrollY > 100) {
@@ -40,6 +43,13 @@ const Header = () => {
         };
     }, []);
 
+    const goToPage = (page: string) => {
+        //Se valida que la ruta la que quiero ir es diferente a la de origen, sino no tiene sentido navegar ni reiniciar el state de items
+        if (location.pathname !== page) {
+          navigate(page);
+          
+        }
+      };
     return (
         <nav className={`flex justify-between flex-wrap shadow-2xl p-3 text-white sm:fixed sm:p-4 sm:w-full ${scrolling ? "  bg-slate-950  text-black transition delay-150 duration-300 ease-in-out" : ""}`}>
             <div className="fixed top-0 left-0 w-full bg-slate-950 p-4 z-50 flex items-center justify-between sm:hidden">
@@ -88,7 +98,7 @@ const Header = () => {
                     <a href="#aboutme" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Sobre mi
                     </a>
-                    <a href="/contactForm" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a onClick={() => goToPage("/contactForm")} className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Contacto
                     </a>
                 </div>
