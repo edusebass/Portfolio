@@ -5,7 +5,6 @@ import {BsGit} from "react-icons/bs";
 import {SiJupyter, SiMysql, SiMicrosoftsqlserver, SiApachecouchdb, SiExpress} from "react-icons/si";
 import { AiOutlinePercentage } from "react-icons/ai";
 import '../../public/img/codigo.jpg'
-import  ProgressBar from './ProgressBar';
 import AnimatedText from './AnimatedText'
 import SkillComponent from './SkillComponent';
 
@@ -27,106 +26,147 @@ const skills = () => {
                             porcentaje={30}
                             nombreSkill="Python"
                         />
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-sky-700">
-                            <BiLogoCPlusPlus/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">C++</p>        
-                            <ProgressBar percent={50} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3">
-                            <FaJava/> 
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center">Java</p>       
-                            <ProgressBar percent={75} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-orange-600">
-                            <BiLogoHtml5/>    
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">HTML</p>    
-                            <ProgressBar percent={100} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-blue-600">
-                            <BiLogoCss3/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">CSS</p>
-                            <ProgressBar percent={100} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3  items-center text-yellow-500">
-                            <BiLogoJavascript/> 
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-white">JavaScript</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-amber-700">
-                            <BsGit/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">Git</p>
-                            <ProgressBar percent={100} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3  items-center">
-                            <BiTerminal />
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center">Terminal</p>
-                            <ProgressBar percent={100} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 items-center">
-                            <SiJupyter/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center">Jupyter Notebook</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3">
-                            <SiMysql/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center">MySQL</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3">
-                            <SiMicrosoftsqlserver/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center">SQL Server</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 items-center text-red-600">
-                            <SiApachecouchdb/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">CouchDB</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-green-600">
-                            <BiLogoNodejs/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">NodeJs</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-sky-400">
-                            <BiLogoReact/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">React</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-blue-200">
-                            <BiLogoJquery/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">JQuery</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-green-400">
-                            <BiLogoMongodb/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">MongoDB</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-gray-400">
-                            <BiDirections/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">WebSockets</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-gray-200">
-                            <BiSolidFileJson/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">APIS</p>
-                            <ProgressBar percent={100} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-gray-200">
-                            <SiExpress/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">Express.js</p>                        
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-blue-500">
-                            <BiLogoTypescript/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">TypeScript</p>
-                            <ProgressBar percent={80} />
-                        </div>
-                        <div className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 p-1 px-3 text-red-600">
-                            <AiOutlinePercentage/>
-                            <p className="transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110  duration-1000 text-sm text-center text-white">EJS</p>
-                            <ProgressBar percent={80} />
-                        </div>
+
+                        <SkillComponent
+                            icon={<BiLogoCPlusPlus/>}
+                            color="text-sky-700"
+                            porcentaje={70}
+                            nombreSkill="C++"
+                        />
+
+                        <SkillComponent
+                            icon={<FaJava />}
+                            color="text-white"
+                            porcentaje={75}
+                            nombreSkill="Java"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoHtml5 />}
+                            color="text-orange-600"
+                            porcentaje={100}
+                            nombreSkill="HTML"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoCss3 />}
+                            color="text-blue-600"
+                            porcentaje={100}
+                            nombreSkill="CSS"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoJavascript />}
+                            color="text-yellow-500"
+                            porcentaje={80}
+                            nombreSkill="JavaScript"
+                        />
+
+                        <SkillComponent
+                            icon={<BsGit />}
+                            color="text-amber-700"
+                            porcentaje={100}
+                            nombreSkill="Git"
+                        />
+
+                        <SkillComponent
+                            icon={<BiTerminal />}
+                            color="text-white"
+                            porcentaje={100}
+                            nombreSkill="Terminal"
+                        />
+
+                        <SkillComponent
+                            icon={<SiJupyter />}
+                            color="text-white"
+                            porcentaje={80}
+                            nombreSkill="Jupyter Notebook"
+                        />
+
+                        <SkillComponent
+                            icon={<SiMysql />}
+                            color="text-white"
+                            porcentaje={80}
+                            nombreSkill="MySQL"
+                        />
+
+                        <SkillComponent
+                            icon={<SiMicrosoftsqlserver />}
+                            color="text-white"
+                            porcentaje={80}
+                            nombreSkill="SQL Server"
+                        />
+
+                        <SkillComponent
+                            icon={<SiApachecouchdb />}
+                            color="text-red-600"
+                            porcentaje={80}
+                            nombreSkill="CouchDB"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoNodejs />}
+                            color="text-green-600"
+                            porcentaje={80}
+                            nombreSkill="NodeJs"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoReact />}
+                            color="text-sky-400"
+                            porcentaje={80}
+                            nombreSkill="React"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoJquery />}
+                            color="text-blue-200"
+                            porcentaje={80}
+                            nombreSkill="JQuery"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoMongodb />}
+                            color="text-green-400"
+                            porcentaje={80}
+                            nombreSkill="MongoDB"
+                        />
+
+                        <SkillComponent
+                            icon={<BiDirections />}
+                            color="text-gray-400"
+                            porcentaje={80}
+                            nombreSkill="WebSockets"
+                        />
+
+                        <SkillComponent
+                            icon={<BiSolidFileJson />}
+                            color="text-gray-200"
+                            porcentaje={100}
+                            nombreSkill="APIS"
+                        />
+
+                        <SkillComponent
+                            icon={<SiExpress />}
+                            color="text-gray-200"
+                            porcentaje={80}
+                            nombreSkill="Express.js"
+                        />
+
+                        <SkillComponent
+                            icon={<BiLogoTypescript />}
+                            color="text-blue-500"
+                            porcentaje={80}
+                            nombreSkill="TypeScript"
+                        />
+
+                        <SkillComponent
+                            icon={<AiOutlinePercentage />}
+                            color="text-red-600"
+                            porcentaje={80}
+                            nombreSkill="EJS"
+                        />
+
                     </div>
                 </div>            
             </div>
