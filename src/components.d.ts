@@ -27,3 +27,9 @@ interface SkillComp {
     porcentaje: number
     nombreSkill: string
 }
+
+interface ServicioCard {
+    imgIcon: string
+    titulo: string
+    descripcion: string
+}

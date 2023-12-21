@@ -25,19 +25,29 @@ const Card: React.FC<Card> = ({
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{titulo}</div>
                     <div className="font-medium mb-2">{fecha}</div>
-                    <p className="text-gray-700 text-base">{descripcion}</p>
+                    <p className="text-gray-700 text-sm">{descripcion}</p>
                 </div>
                 <div className=" px-3 flex flex-wrap justify-around">
                     {icons.map((IconComponent, index) => (
                         <div key={index} className="text-center">
-                            <IconComponent size={50} className={`${iconColors[index]} mx-3`} />
+                            <IconComponent size={30} className={`${iconColors[index]} mx-3`} />
                             <div className="text-xs">{iconNames[index]}</div>
                         </div>
                     ))}
                 </div>
-                <div className="flex flex-row justify-center mx-2 mt-5 mb-3">
-                    <Button href={linkRepo} icon={<BiLogoGithub/>} descripButton="Repo"/>
-                    <Button href={linkWeb} icon={<MdOutlinePageview/>} descripButton="WebSite"/>
+                <div className="flex flex-row justify-center mx-2 mt-2 mb-3">
+                    <Button 
+                        href={linkRepo} 
+                        icon={<BiLogoGithub/>} 
+                        descripButton="Repo"
+                        classname=""
+                    />
+                    <Button 
+                        href={linkWeb} 
+                        icon={<MdOutlinePageview/>} 
+                        descripButton="WebSite"
+                        classname=""
+                    />
                 </div>
             </div>
         </AnimatedDiv>
