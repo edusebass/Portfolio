@@ -66,7 +66,7 @@ const Header = () => {
                         <a href="#servicios" className="text-white text-lg mb-4 hover:underline uppercase">Servicios</a>
                         <a href="#eduacion" className="text-white text-lg mb-4 hover:underline uppercase">Educación</a>
                         <a href="#aboutme" className="text-white text-lg mb-4 hover:underline uppercase">Sobre mi</a>
-                        <a href="#footer" className="text-white text-lg hover:underline uppercase">Contacto</a>
+                        <a onClick={() => goToPage("/contactForm")} className="text-white text-lg hover:underline uppercase">Contacto</a>
                     </div>
                 )}
             </div>
