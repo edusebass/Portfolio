@@ -22,7 +22,7 @@ const ContactForm = () => {
         setLoading(true)
         console.log("JSON Data to be sent:", JSON.stringify(formData));
         
-        const response = await fetch('https://portfolio-backend-delta-rouge.vercel.app/send-email', {
+        const response = await fetch('https://backendportafolio-3zy0.onrender.com/send-email', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
