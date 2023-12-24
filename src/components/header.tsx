@@ -4,7 +4,7 @@ import {FaWhatsapp, FaLinkedin, FaGithub} from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useNavigate, useLocation } from "react-router-dom";
 
-const Header = () => {
+const Header = ({className}: HeaderProps) => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [scrolling, setScrolling] = useState(false);
     const navigate = useNavigate();
@@ -51,7 +51,7 @@ const Header = () => {
         }
       };
     return (
-        <nav className={`flex justify-between flex-wrap shadow-2xl p-3 text-white sm:fixed sm:p-4 sm:w-full ${scrolling ? "  bg-slate-950  text-black transition delay-150 duration-300 ease-in-out" : ""}`}>
+        <nav className={`${className} flex justify-between flex-wrap shadow-2xl p-3 text-white sm:fixed sm:p-4 sm:w-full ${scrolling ? "  bg-slate-950  text-black transition delay-150 duration-300 ease-in-out" : ""}`}>
             <div className="fixed top-0 left-0 w-full bg-slate-950 p-4 z-50 flex items-center justify-between sm:hidden">
                 <span className="font-semibold tracking-tight text-4xl text-white">EA</span>
                 <button className="flex px-6 py-4 border rounded text-white border-white" onClick={toggleNav}>
@@ -59,7 +59,7 @@ const Header = () => {
                 </button>
                 {isNavOpen && (
                     <div className=" fixed top-20 left-0 w-full bg-slate-950 p-4 z-50 flex flex-col items-center justify-center">
-                        <a href="#intro" className="text-white text-lg mb-4 hover:underline uppercase">Inicio</a>
+                        <a onClick={() => goToPage("/page")} className="text-white text-lg mb-4 hover:underline uppercase">Inicio</a>
                         <a href="#skills" className="text-white text-lg mb-4 hover:underline uppercase">Habilidades</a>
                         <a href="#experiencia" className="text-white text-lg mb-4 hover:underline uppercase">Experiencia</a>
                         <a href="#projects" className="text-white text-lg mb-4 hover:underline uppercase">Proyectos</a>
@@ -77,7 +77,7 @@ const Header = () => {
             </div>
             <div className={`hidden sm:flex-grow sm:flex sm:items-center sm:w-auto`}>
                 <div className="text-sm sm:flex-grow">
-                    <a href="#intro" className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case" >
+                    <a onClick={() => goToPage("/page")} className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case" >
                         Inicio
                     </a>
                     <a href="#skills" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
