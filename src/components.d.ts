@@ -33,3 +33,7 @@ interface ServicioCard {
     titulo: string
     descripcion: string
 }
+
+interface HeaderProps {
+    className?: string
+}
