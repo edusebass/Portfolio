@@ -196,6 +196,18 @@ const Project = () => {
                     linkRepo='https://github.com/edusebass/BackendU/tree/renderP'
                     linkWeb='https://renderusers.onrender.com/'
                 />
+
+                <Card 
+                    img="https://res.cloudinary.com/dwowtb0ya/image/upload/v1703641612/Portfolio/devrise_mqkmbj.png"
+                    titulo='DevRise'
+                    fecha='Octubre - Noviembre 2023'
+                    descripcion='Aplicacion web resposive realizada para un empresa, incluye formulario de contacto.'
+                    icons={[BiLogoHtml5, BiLogoTailwindCss, BiLogoJavascript, TbBrandVite, BiLogoFirebase]}
+                    iconColors={["text-orange-600", "text-sky-500", "text-yellow-400", "text-blue-600", "text-yellow-600", "text-yellow-500"]}
+                    iconNames={["HTML5", "TailwindCss", "JavaScript","Vite", "Firebase"]}
+                    linkRepo='https://github.com/williansaaid/devrise'
+                    linkWeb='https://devrise-williansaaid.vercel.app/'
+                />
             </section>      
         </>
     )
