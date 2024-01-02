@@ -11,7 +11,7 @@ const Educacion = () => {
 
     return (
         <>
-            
+            <div id='educacion'></div>
             <section className="w-auto mt-16 dark:bg-gray-900 ">
                 <div className="container px-6 py-10 mx-auto">
                         <AnimatedText
@@ -39,7 +39,6 @@ const Educacion = () => {
                 </div>
                 <Cursos></Cursos>
             </section>
-
 
         </>
     );
