@@ -30,7 +30,7 @@ const Card: React.FC<Card> = ({
                 <div className=" px-3 flex flex-wrap justify-around">
                     {icons.map((IconComponent, index) => (
                         <div key={index} className="text-center">
-                            <IconComponent size={30} className={`${iconColors[index]} mx-3`} />
+                            <IconComponent size={30} className={`text-${iconColors[index]} mx-3`} />
                             <div className="text-xs">{iconNames[index]}</div>
                         </div>
                     ))}
