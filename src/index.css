@@ -33,7 +33,7 @@
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-#educacion {
+#projects {
     /* Agrega tu ruta correcta a la imagen de fondo */
     background-image: url('https://midu.dev/images/wallpapers/una-taza-de-javascript.png');
     background-attachment: fixed;
