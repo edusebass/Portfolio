@@ -44,7 +44,7 @@ const Cursos = () => {
                     
                 </div>
                 <div>
-                    asdfsd <br />
+                    
                     <br />
                 </div>
             </div>
