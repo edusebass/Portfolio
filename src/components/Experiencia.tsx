@@ -5,7 +5,7 @@ import AnimatedText from './AnimatedText'
 
 const Experiencia = () => {
     return (
-        <> 
+        <>  <div id='experiencia'></div>
             <AnimatedText 
                 text='EXPERIENCIA LABORAL'
                 className='text-yellow-400 font-extrabold text-center pb-8 text-5xl mt-28'
