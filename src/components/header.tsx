@@ -60,12 +60,12 @@ const Header = ({className}: HeaderProps) => {
                 {isNavOpen && (
                     <div className=" fixed top-20 left-0 w-full bg-slate-950 p-4 z-50 flex flex-col items-center justify-center">
                         <a onClick={() => goToPage("/page")} className="text-white text-lg mb-4 hover:underline uppercase">Inicio</a>
-                        <a href="#skills" className="text-white text-lg mb-4 hover:underline uppercase">Habilidades</a>
-                        <a href="#experiencia" className="text-white text-lg mb-4 hover:underline uppercase">Experiencia</a>
-                        <a href="#projects" className="text-white text-lg mb-4 hover:underline uppercase">Proyectos</a>
-                        <a href="#servicios" className="text-white text-lg mb-4 hover:underline uppercase">Servicios</a>
-                        <a href="#eduacion" className="text-white text-lg mb-4 hover:underline uppercase">Educación</a>
-                        <a href="#aboutme" className="text-white text-lg mb-4 hover:underline uppercase">Sobre mi</a>
+                        <a href="/page#skills" className="text-white text-lg mb-4 hover:underline uppercase">Habilidades</a>
+                        <a href="/page#experiencia" className="text-white text-lg mb-4 hover:underline uppercase">Experiencia</a>
+                        <a href="/page#projects" className="text-white text-lg mb-4 hover:underline uppercase">Proyectos</a>
+                        <a href="/page#servicios" className="text-white text-lg mb-4 hover:underline uppercase">Servicios</a>
+                        <a href="/page#educacion" className="text-white text-lg mb-4 hover:underline uppercase">Educación</a>
+                        <a href="/page#aboutme" className="text-white text-lg mb-4 hover:underline uppercase">Sobre mi</a>
                         <a onClick={() => goToPage("/contactForm")} className="text-white text-lg hover:underline uppercase">Contacto</a>
                     </div>
                 )}
@@ -80,25 +80,25 @@ const Header = ({className}: HeaderProps) => {
                     <a onClick={() => goToPage("/page")} className=" block mt-4 sm:inline-block sm:mt-0 text-black-300 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case" >
                         Inicio
                     </a>
-                    <a href="#skills" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a href="/page#skills" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Habilidades
                     </a>
-                    <a href="#experiencia" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a href="/page#experiencia" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Experiencia
                     </a>
-                    <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a href="/page#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Proyectos
                     </a>
-                    <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a href="/page#educacion" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Educación
                     </a>
-                    <a href="#projects" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a href="/page#servicios" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Servicios
                     </a>
-                    <a href="#aboutme" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a href="/page#aboutme" className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
                         Sobre mi
                     </a>
-                    <a onClick={() => goToPage("/contactForm")} className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case">
+                    <a onClick={() => goToPage("/contactForm")} className=" block mt-4 sm:inline-block sm:mt-0 text-black-200 hover:font-semibold hover:underline mr-10 uppercase sm:normal-case hover:cursor-pointer">
                         Contacto
                     </a>
                 </div>
