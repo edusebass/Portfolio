@@ -11,7 +11,7 @@ import SkillComponent from './SkillComponent';
 const skills = () => {
     return (
         <>
-            <div className="flex justify-center p-3" id=""> 
+            <div className="flex justify-center p-3" id="skills"> 
                 <div className="text-white text-6xl sm:text-8xl">
                     <AnimatedText 
                         text='Habilidades && Herramientas'
