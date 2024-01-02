@@ -4,7 +4,9 @@ import AnimatedText from "./AnimatedText";
 const MainServicios = () => {
     return (
         <>
-            <div className='flex m-10 flex-col sm:flex-row'>
+            <div id='servicios'></div>
+            
+            <div className='flex m-10 flex-col sm:flex-row mt-28'>
                 <div className="px-10"
                     id='container'
                     >
