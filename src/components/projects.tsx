@@ -23,6 +23,7 @@ const Project = () => {
 
     return (
         <>
+            <div id='projects'></div>
             <AnimatedText 
                 text='PROYECTOS'
                 className='text-yellow-400 text-5xl font-extrabold center pb-8 5xl mt-28'
@@ -35,7 +36,7 @@ const Project = () => {
                 fromTop
                 stylesWords="hover:white"
             />
-            <section className="sm:justify-evenly flex flex-wrap " id='educacion'>
+            <section className="sm:justify-evenly flex flex-wrap " id='projects'>
                 <Card 
                     img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1704215810/Portfolio/blog_tapxwh.png'
                     titulo='Blog-Bindev'
