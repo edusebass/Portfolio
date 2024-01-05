@@ -9,12 +9,13 @@ import appfarmacia from '../../public/img/appfarmacia.png';
 import tolist from '../../public/img/tolist.png';
 import apiperson from '../../public/img/apiperson.png';
 import { BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoCPlusPlus,BiLogoPython, BiLogoJava,
-BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs, BiSolidFileJson, BiLogoMongodb, BiDirections } from 'react-icons/bi';
+BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoFirebase, BiLogoNodejs, BiSolidFileJson, BiLogoMongodb, BiDirections, BiMailSend } from 'react-icons/bi';
 import { TbBrandVite } from 'react-icons/tb';
-import { SiExpress, SiMysql  } from 'react-icons/si';
+import { SiCss3, SiExpress, SiFirebase, SiMongodb, SiMysql  } from 'react-icons/si';
 import { AiOutlinePercentage, AiFillApi } from 'react-icons/ai';
 import Card from './Card';
 import AnimatedText from './AnimatedText'
+import { FaNodeJs } from 'react-icons/fa';
 
 const Project = () => {
     const icons1 = [BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoJquery];
@@ -36,7 +37,17 @@ const Project = () => {
                 fromTop
                 stylesWords="hover:white"
             />
-            <section className="sm:justify-evenly flex flex-wrap " id='projects'>
+            <section className="sm:justify-evenly flex flex-wrap text-bl " id='projects'>
+                <Card 
+                    img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1704463886/Portfolio/bypass_xije8r.png'
+                    descripcion='Aplicacion Web para una clinica en la cual participe en parte del codigo implementando componentes, cuanto trabaje en NICECODE.'
+                    fecha='Noviembre - 2023 | Enero 2024'
+                    titulo='ByPassGastrico'
+                    iconNames={['React.js', 'MongoDB', 'Firebase', 'TypeScript', 'CSS', 'Node.js', 'Express.js', 'NodeMailer']}
+                    icons={[BiLogoReact, SiMongodb, SiFirebase, BiLogoTypescript, SiCss3, FaNodeJs, SiExpress, BiMailSend ]}
+                    iconColors={["sky-400", "green-400", "yellow-400", "sky-700", "blue-500", "green-600", "", "" ]}
+
+                />
                 <Card 
                     img='https://res.cloudinary.com/dwowtb0ya/image/upload/v1704215810/Portfolio/blog_tapxwh.png'
                     titulo='Blog-Bindev'

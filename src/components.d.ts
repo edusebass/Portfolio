@@ -6,7 +6,7 @@ interface Card{
     icons: IconType[],
     iconColors: string[],
     iconNames: string[],
-    linkRepo: string,
+    linkRepo?: string,
     linkWeb?: string
 }
 
